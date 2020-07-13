@@ -2,9 +2,9 @@
 
 /*---------------------------------------------------------------------------------
 
-	Theme Name: default
-	Description: default
-	Author: template
+	Theme Name: 初見寿司
+	Description: 初見寿司
+	Author: 初見寿司
 	
 -----------------------------------------------------------------------------------
 
@@ -90,7 +90,12 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 
-img { border: none; vertical-align: bottom; }
+img {
+    border: none;
+    vertical-align: bottom;
+    max-width: 100%;
+    height: auto;
+}
 
 caption, th { text-align:left; }
 
@@ -201,6 +206,40 @@ img {
 ::-webkit-input-placeholder { color: #fff; }
 :-ms-input-placeholder { color: #fff; }
 
+/* トップへ戻るボタン */
+#page_top {
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 50%;
+    background: #6c6c6c;
+    opacity: 0.6;
+}
+#page_top a {
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+}
+#page_top a::after {
+    width: 30px;
+    height: 30px;
+    content: '';
+    position: absolute;
+    top: 35px;
+    bottom: 0;
+    left: 65%;
+    right: 0;
+    border: 5px solid;
+    border-color: #fff #fff transparent transparent;
+    transform: rotate(-45deg);
+    border-radius: 7px;
+    
+}
+
 
 /* -------------------------------------------------------------------------------- */
 /*	2.	Font
@@ -301,7 +340,17 @@ img {
 /* -------------------------------------------------------------------------------- */
 /*	8.	Top Page
 /* -------------------------------------------------------------------------------- */
-
+.container-inner {
+    width: 80%;
+    margin: 0 auto;
+}
+.food-menu {
+    width: 60%;
+    margin: 50px auto 35px;
+    padding: 20px 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
 
 /* -------------------------------------------------------------------------------- */
 /*	9.	Archive Page

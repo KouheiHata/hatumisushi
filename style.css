@@ -341,7 +341,90 @@ img {
 /* -------------------------------------------------------------------------------- */
 /*	6.	Menu Navigation
 /* -------------------------------------------------------------------------------- */
+/* xlサイズnav */
+.navigation {
+    max-width: 1024px;
+    width: 95%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.nav-link {
+    font-size: 18px;
+}
 
+/* -lgサイズnav */
+.navigation-fluid {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 98;
+}
+.navigation-fluid.hide {
+    transform: translateY(-100%);
+    transition: .5s;
+}
+.nav-wrap {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    align-items:center;
+    justify-content: center;
+}
+.gnav__menu__item{
+    margin: 40px 0;
+}
+.gnav__menu__item a{
+    color: #fff;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 40px;
+    text-decoration: none;
+    transition: .5s;
+}
+.gnav__menu__item a:hover{
+    color: #666;
+}
+
+/* ハンバーガーメニュー */
+.menu {
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    top: 20px;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 65px;
+    height: 65px;
+    z-index: 99;
+}
+.menu-line {
+    display: block;
+    position: absolute;
+    width: 60%;
+    height: 2px;
+    left: 12px;
+    background: #000;
+    transition:transform .3s;
+}
+.menu-line-top {
+    top: 15px;
+}
+.menu-line-center {
+    top: 25px;
+}
+.menu-line-bottom {
+    top: 35px;
+}
+.menu-line-top.active {
+    transform: translateY(10px) rotate(-45deg);
+}
+.menu-line-center.active {
+    transform:scaleX(0);
+}
+.menu-line-bottom.active {
+    transform: translateY(-10px) rotate(45deg);
+}
 
 /* -------------------------------------------------------------------------------- */
 /*	7.	Button
@@ -362,7 +445,6 @@ img {
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
 }
-
 /* -------------------------------------------------------------------------------- */
 /*	9.	Archive Page
 /* -------------------------------------------------------------------------------- */
@@ -391,5 +473,6 @@ img {
 /* -------------------------------------------------------------------------------- */
 /*	14.	Color
 /* -------------------------------------------------------------------------------- */
-
-
+.bg-darkblue {
+    background-color: #000622;
+}

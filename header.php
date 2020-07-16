@@ -25,11 +25,10 @@
 <?php
 wp_deregister_script('jquery');
 ?>
-
-<?php wp_head(); ?>
 </head>
 <body <?php body_class (); ?>>
-
+<?php wp_head(); ?>
+    
 <div class="wrapper"><!-- wrapper start ▼ -->
 <header id="header" class="header">
    
@@ -55,3 +54,53 @@ wp_deregister_script('jquery');
 <!-- トップへ戻るボタン -->
 <div id="page_top" class="arrow"><a href="#"></a></div>
 </header>
+    
+    <div class="container-fluid bg-darkblue d-none d-xl-block">
+        <div class="row">
+            <div class="navigation">
+                <ul class="nav nav-justified">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <img  src="" width="100%" alt="ブランド">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">リンク</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">リンク</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">リンク</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">リンク</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">リンク</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">リンク</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div>
+        <a class="menu">
+            <span class="menu-line menu-line-top"></span>
+            <span class="menu-line menu-line-center"></span>
+            <span class="menu-line menu-line-bottom"></span>
+        </a>
+        <nav class="navigation-fluid bg-darkblue hide">
+            <div class="nav-wrap">
+                <ul class="gnav__menu">
+                    <li class="gnav__menu__item"><a href="">About</a></li>
+                    <li class="gnav__menu__item"><a href="">Works</a></li>
+                    <li class="gnav__menu__item"><a href="">Recruit</a></li>
+                    <li class="gnav__menu__item"><a href="">News</a></li>
+                    <li class="gnav__menu__item"><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>

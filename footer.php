@@ -14,6 +14,18 @@
 <!-- swiperJS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
 
+<script>
+    $(function() {
+        $('.menu').on('click',function(){
+            $('.menu-line').toggleClass('active');
+            $('.navigation-fluid').removeClass('hide');
+        });
+        $('.menu').off('click',function(){
+            $('.navigation-fluid').toggleClass('hide');
+        });
+    });
+</script>
+
 <?php wp_footer(); ?>
 </body>
 </html>

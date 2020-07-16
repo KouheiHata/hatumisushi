@@ -16,3 +16,11 @@ function() {
         return false;
     });
 }
+
+var mySwiper = new Swiper('.swiper-container', {
+    effectAllowed: "flip",
+    loop: true,
+    pagination: '.swiper-pagination',
+    nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev',
+})

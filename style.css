@@ -153,6 +153,19 @@ display:block;
 /* -------------------------------------------------------------------------------- */
 /*	1. Document
 /* -------------------------------------------------------------------------------- */
+/* スクロールバーカスタマイズ */
+html::-webkit-scrollbar {
+    width: 15px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #848484;
+    border-radius: 10px;
+}
+
+html::-webkit-scrollbar-track {
+    background: #e2e2e2;
+}
 
 body {
 	background: #fff;
@@ -213,9 +226,8 @@ img {
     position: fixed;
     right: 10px;
     bottom: 10px;
-    border-radius: 50%;
     background: #6c6c6c;
-    opacity: 0.6;
+    opacity: 0.4;
 }
 #page_top a {
     position: relative;
@@ -233,11 +245,10 @@ img {
     bottom: 0;
     left: 65%;
     right: 0;
-    border: 5px solid;
+    border: 6px solid;
     border-color: #fff #fff transparent transparent;
     transform: rotate(-45deg);
-    border-radius: 7px;
-    
+    border-radius: 5px;
 }
 
 

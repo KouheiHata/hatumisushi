@@ -38,11 +38,10 @@ add_action( 'widgets_init', 'my_theme_widgets_init' );
 function enqueue_scripts() {
     //CSS
     wp_enqueue_style('main', get_stylesheet_uri() );
-        //レスポンシブＣＳＳ
+    //レスポンシブCSS
     wp_enqueue_style('responsive', get_template_directory_uri().'/responsive.css' );
-    //javascript
-    wp_enqueue_script('mainjs', get_stylesheet_directory_uri().'/js/main.js',array(),'',true
-    );
+    //JavaScript
+    wp_enqueue_script('mainjs', '/js/main.js',array(),'',true);
 }
 add_action('wp_enqueue_scripts', 'enqueue_scripts' );
 

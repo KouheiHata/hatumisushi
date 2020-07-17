@@ -342,6 +342,10 @@ img {
 /*	6.	Menu Navigation
 /* -------------------------------------------------------------------------------- */
 /* xlサイズnav */
+.logo {
+    width: 70px;
+    height: auto;
+}
 .navigation {
     max-width: 1024px;
     width: 95%;
@@ -349,15 +353,44 @@ img {
     padding: 50px 0;
 }
 .nav-link {
+    position: relative;
+    display: inline-block;
+    color: #000622;
+    padding-bottom: 5px;
     font-size: 18px;
+    line-height: 60px;
+}
+.nav-link:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 3px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #000622;
+    transition: .3s all;
+}
+.nav-link:hover:after {
+    width: 100%;
 }
 
 /* -lgサイズnav */
+.nav-logo {
+    margin: 0 auto;
+}
+.logo-lg {
+    width: 200px;
+}
 .navigation-fluid {
     position: fixed;
     width: 100%;
     height: 100%;
+    top: 0;
+    background-color: rgba( 255, 255, 255, .8 );
     z-index: 98;
+    transition: .5s;
 }
 .navigation-fluid.hide {
     transform: translateY(-100%);
@@ -371,31 +404,37 @@ img {
     align-items:center;
     justify-content: center;
 }
-.gnav__menu__item{
-    margin: 40px 0;
+.nav-list {
+    display: flex;
+    justify-content: center;
 }
-.gnav__menu__item a{
-    color: #fff;
-    font-size: 2em;
-    font-weight: bold;
-    padding: 40px;
+.nav-menu {
+    writing-mode: vertical-rl;
+}
+.nav-menu-item {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.nav-menu-item a {
+    color: #000622;
+    font-size: 24px;
     text-decoration: none;
     transition: .5s;
 }
-.gnav__menu__item a:hover{
-    color: #666;
+.nav-menu-item a:hover{
+    opacity: .8;
 }
 
 /* ハンバーガーメニュー */
 .menu {
-    position: absolute;
+    position: fixed;
     width: 30px;
     height: 20px;
     top: 20px;
     right: 20px;
     background-color: rgba(255, 255, 255, 0.5);
-    width: 65px;
-    height: 65px;
+    width: 50px;
+    height: 50px;
     z-index: 99;
 }
 .menu-line {
@@ -403,8 +442,8 @@ img {
     position: absolute;
     width: 60%;
     height: 2px;
-    left: 12px;
-    background: #000;
+    left: 10px;
+    background: #000622;
     transition:transform .3s;
 }
 .menu-line-top {
@@ -473,6 +512,3 @@ img {
 /* -------------------------------------------------------------------------------- */
 /*	14.	Color
 /* -------------------------------------------------------------------------------- */
-.bg-darkblue {
-    background-color: #000622;
-}

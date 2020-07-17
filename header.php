@@ -55,52 +55,72 @@ wp_deregister_script('jquery');
 <div id="page_top" class="arrow"><a href="#"></a></div>
 </header>
     
-    <div class="container-fluid bg-darkblue d-none d-xl-block">
+    <div class="container-fluid bg-white d-none d-xl-block">
         <div class="row">
             <div class="navigation">
                 <ul class="nav nav-justified">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <img  src="" width="100%" alt="ブランド">
+                        <a class="nav-link-logo" href="#">
+                            <img class="logo" src="<?php echo esc_url(get_theme_file_uri('images/logo.png')); ?>" alt="ブランド">
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">リンク</a>
+                        <a class="nav-link" href="#">リンク</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">リンク</a>
+                        <a class="nav-link" href="#">リンク</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">リンク</a>
+                        <a class="nav-link" href="#">リンク</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">リンク</a>
+                        <a class="nav-link" href="#">リンク</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">リンク</a>
+                        <a class="nav-link" href="#">リンク</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">リンク</a>
+                        <a class="nav-link" href="#">リンク</a>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
-    <div>
+    <div class="d-block d-xl-none">
         <a class="menu">
             <span class="menu-line menu-line-top"></span>
             <span class="menu-line menu-line-center"></span>
             <span class="menu-line menu-line-bottom"></span>
         </a>
-        <nav class="navigation-fluid bg-darkblue hide">
-            <div class="nav-wrap">
-                <ul class="gnav__menu">
-                    <li class="gnav__menu__item"><a href="">About</a></li>
-                    <li class="gnav__menu__item"><a href="">Works</a></li>
-                    <li class="gnav__menu__item"><a href="">Recruit</a></li>
-                    <li class="gnav__menu__item"><a href="">News</a></li>
-                    <li class="gnav__menu__item"><a href="">Contact</a></li>
-                </ul>
+        <nav class="container-fluid navigation-fluid hide">
+            <div class="row nav-wrap">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 nav-list">
+                    <ul class="nav-menu">
+                        <li class="nav-menu-item">
+                            <a href="#">リンク</a>
+                        </li>
+                        <li class="nav-menu-item">
+                            <a href="#">リンク</a>
+                        </li>
+                        <li class="nav-menu-item">
+                            <a href="#">リンク</a>
+                        </li>
+                        <li class="nav-menu-item">
+                            <a href="#">リンク</a>
+                        </li>
+                        <li class="nav-menu-item">
+                            <a href="#">リンク</a>
+                        </li>
+                        <li class="nav-menu-item">
+                            <a href="#">リンク</a>
+                        </li>
+                    </ul>
+                </div>    
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                    <a class="nav-logo" href="#">
+                        <img class="logo-lg" src="<?php echo esc_url(get_theme_file_uri('images/logo.png')); ?>" alt="ブランド">
+                    </a>
+                </div>
             </div>
         </nav>
     </div>

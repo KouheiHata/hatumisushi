@@ -18,9 +18,6 @@
     $(function() {
         $('.menu').on('click',function(){
             $('.menu-line').toggleClass('active');
-            $('.navigation-fluid').removeClass('hide');
-        });
-        $('.menu').off('click',function(){
             $('.navigation-fluid').toggleClass('hide');
         });
     });

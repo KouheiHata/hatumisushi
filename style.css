@@ -390,11 +390,13 @@ img {
     top: 0;
     background-color: rgba( 255, 255, 255, .8 );
     z-index: 98;
-    transition: .5s;
+    opacity: 1;
+    transition: 1s;
 }
 .navigation-fluid.hide {
     transform: translateY(-100%);
-    transition: .5s;
+    opacity: 0;
+    transition: 1s;
 }
 .nav-wrap {
     display: flex;
@@ -422,7 +424,7 @@ img {
     transition: .5s;
 }
 .nav-menu-item a:hover{
-    opacity: .8;
+    opacity: .5;
 }
 
 /* ハンバーガーメニュー */
@@ -451,6 +453,7 @@ img {
 }
 .menu-line-center {
     top: 25px;
+    transition: .3s;
 }
 .menu-line-bottom {
     top: 35px;
@@ -459,7 +462,8 @@ img {
     transform: translateY(10px) rotate(-45deg);
 }
 .menu-line-center.active {
-    transform:scaleX(0);
+    opacity: 0;
+    transition: .3s;
 }
 .menu-line-bottom.active {
     transform: translateY(-10px) rotate(45deg);

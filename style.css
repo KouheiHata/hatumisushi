@@ -430,8 +430,6 @@ img {
 /* ハンバーガーメニュー */
 .menu {
     position: fixed;
-    width: 30px;
-    height: 20px;
     top: 20px;
     right: 20px;
     background-color: rgba(255, 255, 255, 0.5);

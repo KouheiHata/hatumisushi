@@ -55,9 +55,9 @@ wp_deregister_script('jquery');
 <div id="page_top" class="arrow"><a href="#"></a></div>
 </header>
     
-    <div class="container-fluid bg-white d-none d-xl-block">
+    <div class="container-fluid bg-white d-none d-xl-block nav-box">
         <div class="row">
-            <div class="navigation">
+            <nav class="navigation">
                 <ul class="nav nav-justified">
                     <li class="nav-item">
                         <a class="nav-link-logo" href="#">
@@ -83,7 +83,7 @@ wp_deregister_script('jquery');
                         <a class="nav-link" href="#">リンク</a>
                     </li>
                 </ul>
-            </div>
+            </nav>
         </div>
     </div>
     <div class="d-block d-xl-none">

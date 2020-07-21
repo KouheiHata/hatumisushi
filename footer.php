@@ -23,6 +23,22 @@
     });
 </script>
 
+<script>
+    $(function() {
+        var menu_offset = $(".nav-box").offset().top;
+        $(window).scroll(
+            function(){
+                var my_offset = $(window).scrollTop();
+                if(menu_offset < my_offset){
+                    $(".nav-box").addClass("fixed-top");
+                } else {
+                    $(".nav-box").removeClass("fixed-top");      
+                }
+            }
+        )
+        });
+</script>
+
 <?php wp_footer(); ?>
 </body>
 </html>

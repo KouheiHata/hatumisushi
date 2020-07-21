@@ -375,6 +375,11 @@ img {
 .nav-link:hover:after {
     width: 100%;
 }
+.fixed-top {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
 
 /* -lgサイズnav */
 .nav-logo {

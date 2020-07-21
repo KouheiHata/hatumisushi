@@ -40,6 +40,6 @@
             </div><!-- container end -->
 
         </section>
-
+        
     </div><!-- main end ▲ -->
 <?php get_footer(); ?>

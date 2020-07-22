@@ -26,13 +26,21 @@
                             <div class="col-6">3,000円</div>
                             <div class="col-6">ちらし</div>
                             <div class="col-6">1,600円</div>
+                            <div class="col-6">特巻</div>
+                            <div class="col-6">3,000円</div>
                         </div>
                     </div>
-                    <button class="button-square">
+                    <button class="button-square centering">
                         <span>ご予約はこちら</span><span>▶</span>
                     </button>
                 </div><!-- container-inner end -->
                 </div><!-- row end -->
+            </div><!-- container end -->
+
+        </section><!-- section1 end -->
+        <!-- section2 -->
+        <section class="section">
+            <div class="container">
                 <div class="row">
                     <div class="container-inner">
                         <h3 class="text-center my-5">寿司屋が作った古くてあたらしい味</h3>
@@ -42,7 +50,22 @@
                     </div>
                 </div>
             </div><!-- container end -->
-
+        </section><!-- section2 end -->
+        <!-- section3 -->
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="container-inner">
+                        <h3 class="text-center my-5">店舗案内</h3>
+                        <address>
+                            <p>〒918-8005<br>福井県福井市みのり２丁目3-12</p>
+                            <p>TEL: 0776-36-7017</p>
+                            <p>営業時間<br>12:00~24:00(L.O.24:00)</p>
+                            <p>定休日<br>日曜日</p>
+                        </address>
+                    </div>
+                </div><!-- row end -->
+            </div><!-- container end -->
         </section>
         
     </div><!-- main end ▲ -->

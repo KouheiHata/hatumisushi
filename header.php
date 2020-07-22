@@ -59,7 +59,7 @@ wp_deregister_script('jquery');
 
 </header>
     
-    <div class="container-fluid bg-white d-none d-xl-block nav-box">
+    <div class="container-fluid d-none d-xl-block nav-box">
         <div class="row">
             <nav class="navigation">
                 <ul class="nav nav-justified">

@@ -40,6 +40,8 @@ function enqueue_scripts() {
     wp_enqueue_style('main', get_stylesheet_uri() );
     //レスポンシブCSS
     wp_enqueue_style('responsive', get_template_directory_uri().'/responsive.css' );
+    //swiperJS
+    wp_enqueue_script('swiperjs', 'https://unpkg.com/swiper/swiper-bundle.min.js', array(), '', true);
     //JavaScript
     wp_enqueue_script('mainjs', '/js/main.js',array(),'',true);
 }

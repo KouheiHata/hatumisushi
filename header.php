@@ -65,7 +65,7 @@ wp_deregister_script('jquery');
                 <ul class="nav nav-justified">
                     <li class="nav-item">
                         <a class="nav-link-logo" href="#">
-                            <img class="logo" src="<?php echo esc_url(get_theme_file_uri('images/logo.png')); ?>" alt="ブランド">
+                            <img class="logo" src="<?php echo esc_url(get_theme_file_uri('images/logo-white.png')); ?>" alt="ブランド">
                         </a>
                     </li>
                     <li class="nav-item">

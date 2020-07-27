@@ -423,13 +423,14 @@ img {
     color: #fff;
 }
 .fixed-top {
+    opacity: 0.8;
     position: fixed;
     top: 0;
     z-index: 99;
 }
 .fixed-top .navigation {
     transition: 0.6s;
-    padding: 20px 0;
+    padding: 5px 0;
 }
 
 /* -lgサイズnav */
@@ -528,12 +529,14 @@ img {
 /* -------------------------------------------------------------------------------- */
 
 .button-square {
+    display: block;
     text-align: center;
     color: #fff;
     width: 240px;
     height: 80px;
     padding: 10px;
     background: #333;
+    border: 1px solid #333;
 }
 .button-square:hover {
     color: #333;

@@ -32,8 +32,6 @@ wp_deregister_script('jquery');
 <?php wp_head(); ?>
     
 <div class="wrapper"><!-- wrapper start ▼ -->
-<!-- トップへ戻るボタン -->
-<div id="page_top" class="arrow"><a href="#"></a></div>
 <header id="header" class="header">
    
    <h2 class="slide-heading">

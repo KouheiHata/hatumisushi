@@ -404,7 +404,7 @@ section:nth-of-type(odd) {
     position: relative;
     display: inline-block;
     padding-bottom: 5px;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 60px;
 }
 .nav-link:after {

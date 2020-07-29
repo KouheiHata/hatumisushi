@@ -362,7 +362,7 @@ section:nth-of-type(odd) {
     white-space: pre-wrap;
     position: absolute;
     top: 100px;
-    left: 60%;
+    left: 58%;
     z-index: 2;
 }
 
@@ -590,10 +590,13 @@ address p {
     left: 42.5%;
     bottom: 50px;
 }
+.section04 {
+    text-align: center;
+}
 
 .section04 iframe {
-    max-width: 100%;
-    margin-top: -90px;
+    max-width: 1200px;
+    margin-top: -80px;
 }
 
 

@@ -2,8 +2,8 @@
 
 /*---------------------------------------------------------------------------------
 
-	Theme Name: 初見寿司
-	Description: 初見寿司
+	Theme Name: 初味寿司
+	Description: 初味寿司
 	Author: 初見寿司
 	
 -----------------------------------------------------------------------------------
@@ -405,7 +405,7 @@ section:nth-of-type(odd) {
     position: relative;
     display: inline-block;
     padding-bottom: 5px;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 60px;
 }
 .nav-link:after {

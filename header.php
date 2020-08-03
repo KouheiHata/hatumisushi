@@ -67,22 +67,19 @@ wp_deregister_script('jquery');
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">リンク</a>
+                        <a class="nav-link" href="#">初味寿司について</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">リンク</a>
+                        <a class="nav-link" href="#">メニュー</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">リンク</a>
+                        <a class="nav-link" href="#">予約</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">リンク</a>
+                        <a class="nav-link" href="#">宴会</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">リンク</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">リンク</a>
+                        <a class="nav-link" href="#">アクセス</a>
                     </li>
                 </ul>
             </nav>
@@ -99,22 +96,19 @@ wp_deregister_script('jquery');
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 nav-list">
                     <ul class="nav-menu">
                         <li class="nav-menu-item">
-                            <a href="#">リンク</a>
+                            <a href="#">初味寿司について</a>
                         </li>
                         <li class="nav-menu-item">
-                            <a href="#">リンク</a>
+                            <a href="#">メニュー</a>
                         </li>
                         <li class="nav-menu-item">
-                            <a href="#">リンク</a>
+                            <a href="#">予約</a>
                         </li>
                         <li class="nav-menu-item">
-                            <a href="#">リンク</a>
+                            <a href="#">宴会</a>
                         </li>
                         <li class="nav-menu-item">
-                            <a href="#">リンク</a>
-                        </li>
-                        <li class="nav-menu-item">
-                            <a href="#">リンク</a>
+                            <a href="#">アクセス</a>
                         </li>
                     </ul>
                 </div>    

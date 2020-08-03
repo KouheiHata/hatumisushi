@@ -351,13 +351,13 @@ section:nth-of-type(odd) {
 /* -------------------------------------------------------------------------------- */
 
 .header {
-    height: 450px;
-    background: url(images/pattern.png) repeat;
+    height: min(100vh, 800px);
 }
 
 /* スライドショー部分 */
 
 .slide-heading {
+    font-size: 2em;
     color: #fff;
     white-space: pre-wrap;
     position: absolute;
@@ -377,7 +377,8 @@ section:nth-of-type(odd) {
 .swiper-slide img {
     display: block;
     margin: 0 auto;
-    max-width:1200px;
+    max-width:1920px;
+    filter: brightness(80%);
 }
 
 /* -------------------------------------------------------------------------------- */

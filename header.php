@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
+<meta charset="<?php bloginfo('charset'); ?>">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0,initial-scale=1.0" />
 <title><?php wp_title('',true); ?><?php if(wp_title('',false)) { ?> | <?php } ?><?php bloginfo('name'); ?></title>
@@ -35,9 +35,14 @@ wp_deregister_script('jquery');
 <header id="header" class="header">
    
    <h2 class="slide-heading">
-   大将が素材にこだわりぬいた
-   季節の魚や素材を
-   最高の状態で味わう</h2>
+   <span class="em125">福井の魚と食材にこだわり　美味探求</span>
+   </h2>
+   <p class="slide-p">
+       <span class="em150">
+    米と水、魚が出会って
+   　　　ひと握りの寿司になる
+       </span>
+</p>
    <!-- スライダーのコンテナ部分 -->
    <div class="swiper-container">
       <!-- スライダーのラッパー部分 -->

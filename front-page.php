@@ -4,19 +4,29 @@
         <!-- main start ▼ -->
 
         <section class="section01">
-
             <div class="container">
                 <div class="row">
                 <div class="container-inner">
                     <h3 class="text-center my-5">初味寿司について</h3>
-                    <p class="text-left">福井でおいしいお寿司がいただける「初味寿司」
-                    福井市に姉妹店を２店舗構え、福井の旬ネタを中心に
-                    美味しい海鮮がいただけます。
-                    落ち着いた上品は雰囲気が自慢のお店で、接待やデート、
-                    海外の方を連れていくのもいいかもしれません。
-                    本店ではカウンター、囲炉裏部屋、八畳部屋、大部屋の席があります。
-                    宴会も可能です。</p>
-                    <div class="food-menu">
+                    <p class="text-left mb-5">昭和３９年創業「初見寿司」の、玄関をあけてアプローチを進んでいくと、江戸の寿司屋の屋台を模した<ruby>庇<rt>ひさし</rt></ruby>があるカウンターがお出迎え。<br>カウンターは黒御影石。床はこだわりの笏谷石。<br>そして５ｍを超える一枚ガラスのネタケースの中は、地元市場仕入れた旬の魚たちが並ぶ。<br>シャリは、奥越産コシヒカリを越前市赤谷町の名水で炊き上げ、相性の良いまろやかな山吹酢と合わせ仕上げる。<br>ようこそ、いらっしゃいませ。<br>五感で味わう至福のひと時を、ご堪能ください。</p>
+                </div><!-- container-inner end -->
+                </div><!-- row end -->
+            </div><!-- container end -->
+        </section><!-- section1 end -->
+        
+        <section>
+            <div class="container-fluid">
+                <div class="row">
+                    <img src="<?php echo esc_url(get_theme_file_uri('images/shop-counter.jpg')); ?>" alt="">
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="container-inner">
+                        <div class="content-list">
                         <div class="row justify-content-between">
                             <div class="col-6">盛り合わせ</div>
                             <div class="col-6">1,600円</div>
@@ -33,31 +43,66 @@
                     <button class="button-square centering">
                         <span>ご予約はこちら</span><span>▶</span>
                     </button>
-                </div><!-- container-inner end -->
+                    </div>
                 </div><!-- row end -->
             </div><!-- container end -->
-
-        </section><!-- section1 end -->
+        </section>
+        
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="container-inner">
+                        <h3 class="text-center my-5">各種部屋</h3>
+                        <div class="content-list">
+                            <div class="row justify-content-between">
+                                <div class="col-6">２階</div>
+                                <div class="col-6">大部屋（８～２０人）</div>
+                                <div class="col-6 offset-6">８畳間（４～６人）</div>
+                                <div class="col-6 mt-3">１階</div>
+                                <div class="col-6 mt-3">囲炉裏部屋</div>
+                            </div>
+                        </div>
+                        <p class="text-center mb-5">足や膝の負担が少なく、お食事と会話を楽しんでいただけますようにテーブルと椅子に、<br>１階の囲炉裏部屋は一部足をおろし腰掛けできるようになっています。</p>
+                    </div>
+                </div>
+            </div>
+        </section><!-- 追加：後でセクション名付ける -->
+        
         <!-- section2 -->
         <section class="section02">
             <div class="container-fluid">
                 <div class="row">
                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 align-self-center">
                        <div class="container-inner">
-                        <h3 class="text-center my-5">寿司屋が作った古くてあたらしい味</h3>
-                        <p class="text-left mb-5">初味寿司は、福井の名物を使った新しい商品を販売しています。それが「越前へしこButter&越前へしこCheese」。
-                        お店で約10ヵ月かけて手作りしたへしこをペースト状にし、国産のマスカルポーネとバターを混ぜて完成です。使用しているのがへしこ、マスカルポーネ、バターのみなので素材本来の味を楽しむことができます。
-                        クラッカーや野菜などに付けたり、パスタになどの料理の仕上げに入れるとよりコクが増し、おいしく食べる事ができます。</p>
+                       <p class="text-center">福井県の伝統発酵食品「鯖へしこ」を使ったオリジナル商品</p>
+                        <h3 class="text-center my-3"><span class="font-weight-bold">【越前　鯖へしこチーズ】</span>（要予約）</h3>
+                        <p class="text-left mb-5">鯖の糠漬け「へしこ」をマスカルポーネチーズと合わせてクリーミーに。野菜スティックのディップにするのが一押し。辛口の日本酒や白ワインにも相性が良い。<br>鯖へしこの新しい楽しみ方のひとつ。<br>姉妹商品の「越前鯖へしこバター」は無塩バターと合わせたもので、調理向けに良い。
+                        </p>
                     </div>
                    </div>
-                   <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 p-0">
-                      <img src="<?php echo esc_url(get_theme_file_uri('images/hesikopaste.jpg')); ?>" alt="">
-                       <div class="back-image back-hesiko"></div>
+                   <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 p-0 text-left">
+                      <img src="<?php echo esc_url(get_theme_file_uri('images/hesikopaste.jpg')); ?>" alt="" class="grid-image">
                    </div>
                     
                 </div>
             </div><!-- container end -->
         </section><!-- section2 end -->
+        <section>
+            <div class="container-fluid"><!-- 蟹の醤 -->
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-right">
+                        <img src="<?php echo esc_url(get_theme_file_uri('images/kanijan.jpg')); ?>" alt="" class="grid-image">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 align-self-center">
+                        <div class="container-inner">
+                            <p class="text-center">他に類のない珍味</p>
+                            <h3 class="text-center my-3"><span class="font-weight-bold">【<ruby>越前蟹乃醤<rt>えちぜんかにのしょう</rt></ruby>】</span>&nbsp;(冬季仕込み、数量限定)</h3>
+                            <p class="text-left mb-5">越前蟹のメス（地元では「セイ甲蟹」という）を、生きたまま特性醤油ダレに漬け込んだもの。蟹の旨味を凝縮した朱色の卵の内子、プチプチとした食感の外子、生ならではのトロリとした蟹身の３種の味が楽しめる。日本酒に最高に合い、リピート率は高め</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- section3 -->
         <section class="section03">
             <div class="container">

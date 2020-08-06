@@ -14,20 +14,20 @@
             </div><!-- container end -->
         </section><!-- section1 end -->
         
-        <section>
+        <section class="section02">
             <div class="container-fluid">
                 <div class="row">
                     <img src="<?php echo esc_url(get_theme_file_uri('images/shop-counter.jpg')); ?>" alt="">
                 </div>
             </div>
-        </section>
+        </section><!-- section02 end -->
         
-        <section>
+        <section class="section03">
             <div class="container">
                 <div class="row">
                     <div class="container-inner">
                         <div class="content-list">
-                        <div class="row justify-content-between">
+                        <div class="row">
                             <div class="col-6">盛り合わせ</div>
                             <div class="col-6">1,600円</div>
                             <div class="col-6">上握り</div>
@@ -46,14 +46,14 @@
                     </div>
                 </div><!-- row end -->
             </div><!-- container end -->
-        </section>
+        </section><!-- section03メニュー end -->
         
-        <section>
+        <section class="section04">
             <div class="container">
-                <div class="row">
+                <div class="row justify-content-around">
                     <div class="container-inner">
                         <h3 class="text-center my-5">各種部屋</h3>
-                        <div class="content-list">
+                        <div class="content-list mb-5">
                             <div class="row justify-content-between">
                                 <div class="col-6">２階</div>
                                 <div class="col-6">大部屋（８～２０人）</div>
@@ -62,17 +62,27 @@
                                 <div class="col-6 mt-3">囲炉裏部屋</div>
                             </div>
                         </div>
-                        <p class="text-center mb-5">足や膝の負担が少なく、お食事と会話を楽しんでいただけますようにテーブルと椅子に、<br>１階の囲炉裏部屋は一部足をおろし腰掛けできるようになっています。</p>
                     </div>
-                </div>
-            </div>
-        </section><!-- 追加：後でセクション名付ける -->
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <img src="<?php echo esc_url(get_theme_file_uri('images/large_room.jpg')); ?>" alt="">
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <img src="<?php echo esc_url(get_theme_file_uri('images/8mats_room.jpg')); ?>" alt="">
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <img src="<?php echo esc_url(get_theme_file_uri('images/hearth_room.jpg')); ?>" alt="">
+                    </div>
+                    <div class="container-inner">
+                        <p class="my-5">足や膝の負担が少なく、お食事と会話を楽しんでいただけますようにテーブルと椅子に、<br>１階の囲炉裏部屋は一部足をおろし腰掛けできるようになっています。</p>
+                    </div>
+                </div><!-- row end -->
+            </div><!-- container end -->
+        </section><!-- section04 部屋紹介 end -->
         
-        <!-- section2 -->
-        <section class="section02">
+        <section class="section05">
             <div class="container-fluid">
                 <div class="row">
-                   <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 align-self-center">
+                   <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 align-self-center">
                        <div class="container-inner">
                        <p class="text-center">福井県の伝統発酵食品「鯖へしこ」を使ったオリジナル商品</p>
                         <h3 class="text-center my-3"><span class="font-weight-bold">【越前　鯖へしこチーズ】</span>（要予約）</h3>
@@ -80,31 +90,31 @@
                         </p>
                     </div>
                    </div>
-                   <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 p-0 text-left">
+                   <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 p-0 text-md-center">
                       <img src="<?php echo esc_url(get_theme_file_uri('images/hesikopaste.jpg')); ?>" alt="" class="grid-image">
                    </div>
                     
                 </div>
-            </div><!-- container end -->
-        </section><!-- section2 end -->
-        <section>
-            <div class="container-fluid"><!-- 蟹の醤 -->
+            </div><!-- container-fliud end -->
+        </section><!-- section05 end -->
+        <section class="section06">
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-right">
-                        <img src="<?php echo esc_url(get_theme_file_uri('images/kanijan.jpg')); ?>" alt="" class="grid-image">
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 align-self-center">
+                    <div class="order-lg-2 col-lg-6 col-md-12 col-sm-12 col-xs-12 align-self-center">
                         <div class="container-inner">
                             <p class="text-center">他に類のない珍味</p>
                             <h3 class="text-center my-3"><span class="font-weight-bold">【<ruby>越前蟹乃醤<rt>えちぜんかにのしょう</rt></ruby>】</span>&nbsp;(冬季仕込み、数量限定)</h3>
                             <p class="text-left mb-5">越前蟹のメス（地元では「セイ甲蟹」という）を、生きたまま特性醤油ダレに漬け込んだもの。蟹の旨味を凝縮した朱色の卵の内子、プチプチとした食感の外子、生ならではのトロリとした蟹身の３種の味が楽しめる。日本酒に最高に合い、リピート率は高め</p>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
-        <!-- section3 -->
-        <section class="section03">
+                    <div class="order-lg-1 col-lg-6 col-md-12 col-sm-12 col-xs-12 text-lg-right text-md-center"><!-- orderクラスはmdサイズ以上は順番を入れ替える -->
+                        <img src="<?php echo esc_url(get_theme_file_uri('images/kanijan2.jpg')); ?>" alt="" class="grid-image">
+                    </div>
+                </div><!-- row end -->
+            </div><!-- container-fluid end -->
+        </section><!-- section06 end -->
+        <!-- section7 -->
+        <section class="section07">
             <div class="container">
                 <div class="row">
                     <div class="container-inner">
@@ -118,11 +128,11 @@
                     </div>
                 </div><!-- row end -->
             </div><!-- container end -->
-        </section>
-        <section class="section04">
+        </section><!-- section07 end -->
+        <section class="section08">
             <button class="button-square map-button"><span>地図を見る</span><span>▶</span></button>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3225.7226100260605!2d136.21501408122649!3d36.05147513285856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff8bebaf33cdbd3%3A0x55b46f2f58d34d4f!2z5Yid5ZGz5a-_5Y-4IOacrOW6lw!5e0!3m2!1sja!2sjp!4v1595813013544!5m2!1sja!2sjp" width="1920" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </section>
+        </section><!-- section08 end -->
         
     </div><!-- main end ▲ -->
 <?php get_footer(); ?>

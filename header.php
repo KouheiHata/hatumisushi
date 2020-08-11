@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 <!-- google fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;500;600;900&display=swap" rel="stylesheet">
-<!-- swiper -->
+<!-- swipercss -->
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -39,10 +39,9 @@ wp_deregister_script('jquery');
    </h2>
    <p class="slide-p">
        <span class="em150">
-    米と水、魚が出会って
-   　　　ひと握りの寿司になる
+    米と水、魚が出会って<br>ひと握りの寿司になる
        </span>
-</p>
+    </p>
    <!-- スライダーのコンテナ部分 -->
    <div class="swiper-container">
       <!-- スライダーのラッパー部分 -->

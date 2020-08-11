@@ -22,7 +22,7 @@
 	11.	Blog
 	12.	Sidebar
 	13.	Footer
-	14. Color
+	14. Page
 
 ----------------------------------------------------------------------------------- */
 .test {
@@ -177,7 +177,6 @@ body {
 	-webkit-font-smoothing: antialiased;
 	line-height: 1.5;
 	word-wrap: break-word;
-	/* overflow-x: hidden; */
 	min-height: 100%;
 	display: block;
 	flex-direction: column;
@@ -367,17 +366,20 @@ section:nth-of-type(odd) {
 /* スライドショー部分 */
 
 .slide-heading {
-    white-space: pre-wrap;
+    word-break: keep-all;
+/*    text-align: right;*/
+/*    padding-right: 4rem;*/
     position: absolute;
     top: 100px;
     left: 50%;
     z-index: 2;
 }
 .slide-p {
-    white-space: pre-wrap;
+    word-break: keep-all;
     position: absolute;
     top: 400px;
-    left: 70%;
+    left: 76%;
+    z-index: 2;
 }
 
 .swiper-container {
@@ -650,5 +652,22 @@ address p {
 }
 
 /* -------------------------------------------------------------------------------- */
-/*	14.	Color
+/*	14.	Page
 /* -------------------------------------------------------------------------------- */
+
+.page-title {
+    padding-top: 1em;
+    margin-bottom: 1em;
+}
+
+.menu-box {
+    width: 300px;
+    height: 200px;
+}
+
+section.menu-box img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+

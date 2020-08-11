@@ -43,7 +43,7 @@ function enqueue_scripts() {
     //swiperJS
     wp_enqueue_script('swiperjs', 'https://unpkg.com/swiper/swiper-bundle.min.js', array(), '', true);
     //JavaScript
-    wp_enqueue_script('mainjs', '/js/main.js',array(),'',true);
+    wp_enqueue_script('mainjs', get_template_directory_uri().'/js/main.js', array(), '', true);
 }
 add_action('wp_enqueue_scripts', 'enqueue_scripts' );
 

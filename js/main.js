@@ -1,4 +1,21 @@
-// トップページのスライドswiper
+//トップへ戻るボタン
+$(function(){
+        var pageTop = $('#page_top');
+        pageTop.hide();
+        $(window).scroll(function(){
+            if($(this).scrollTop() > 200) {
+                pageTop.fadeIn();
+            } else {
+                pageTop.fadeOut();
+            }
+        });
+        pageTop.click(function(){
+            $('body, html').animate({scrollTop:0}, 1000, 'swing');
+            return false;
+        });
+    });
+
+// スライダー
 var mySwiper = new Swiper('.swiper-container', {
     effect: 'fade',
     speed: 1000,
@@ -13,4 +30,4 @@ var mySwiper = new Swiper('.swiper-container', {
     scrollbar: {
         el: '.swiper-scrollbar',
     },
-})
+});

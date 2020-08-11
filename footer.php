@@ -16,7 +16,6 @@
 </div><!-- wrapper end ▲ wrapperクラスの初め部分はheader部分に -->
 
 <!-- Bootstrap4 jQuery Popper CDN -->
-<!--<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>-->
 <!-- スムーズスクロール実装のためスリム版から通常ミニ版へ変更 -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -45,23 +44,6 @@
             }
         )
         });
-</script>
-<script>
-    $(function(){
-        var pageTop = $('#page_top');
-        pageTop.hide();
-        $(window).scroll(function(){
-            if($(this).scrollTop() > 200) {
-                pageTop.fadeIn();
-            } else {
-                pageTop.fadeOut();
-            }
-        });
-        pageTop.click(function(){
-            $('body, html').animate({scrollTop:0}, 1000, 'swing');
-            return false;
-        });
-    });
 </script>
 
 <?php wp_footer(); ?>

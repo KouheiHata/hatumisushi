@@ -51,18 +51,23 @@
 /* -------------------------------------------------------------------------------- */
 
 @media screen and (max-width: 1024px) {
-    .slide-heading {
-    }
 }
 @media screen and (max-width: 990px) {
     .header {
         height: 500px;
     }
-    .slide-heading {
-    }
 }
 @media screen and (max-width: 768px) {}
-@media screen and (max-width: 580px) {}
+@media screen and (max-width: 580px) {
+	.slide-heading {
+		font-size: 1.1em!important;
+	    right: 20px;
+	}
+	.slide-p {
+		font-size: 0.9em!important;
+	    right: 20px;
+	}
+}
 
 
 /* -------------------------------------------------------------------------------- */

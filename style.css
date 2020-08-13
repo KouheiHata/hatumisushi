@@ -4,7 +4,7 @@
 
 	Theme Name: 初味寿司
 	Description: 初味寿司
-	Author: 初味寿司
+	Author: 初見寿司
 	
 -----------------------------------------------------------------------------------
 
@@ -367,15 +367,18 @@ section:nth-of-type(odd) {
 
 .slide-heading {
     word-break: keep-all;
+/*    text-align: right;*/
+/*    padding-right: 4rem;*/
     position: absolute;
-    right: 50px;
+    top: 100px;
+    left: 50%;
     z-index: 2;
 }
 .slide-p {
     word-break: keep-all;
     position: absolute;
     top: 400px;
-    right: 50px;
+    left: 76%;
     z-index: 2;
 }
 

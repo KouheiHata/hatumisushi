@@ -671,3 +671,15 @@ section.menu-box img {
     object-fit: cover;
 }
 
+.inf-box p,.inf-box h3,.inf-box h4 {
+    text-align: center;
+}
+
+.inf-title {
+    padding-top: 50px;
+}
+
+.inf-btn {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}

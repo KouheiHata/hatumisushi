@@ -411,10 +411,9 @@ section:nth-of-type(odd) {
     height: auto;
 }
 .navigation {
-    max-width: 1024px;
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 35px 0;
 }
 .nav-link {
     color: #fff;
@@ -550,6 +549,7 @@ section:nth-of-type(odd) {
 /* -------------------------------------------------------------------------------- */
 
 .button-square {
+    font-size: 22px;
     display: block;
     text-align: center;
     color: #fff;
@@ -559,16 +559,12 @@ section:nth-of-type(odd) {
     background: #333;
     border: 1px solid #333;
 }
+
 .button-square:hover {
     color: #333;
     background: #ccc;
     transition: all 0.4s ease-in;
 }
-
-.button-square span:nth-of-type(2) {
-    margin-left: 1rem;
-}
-
 
 /* -------------------------------------------------------------------------------- */
 /*	8.	Top Page
@@ -660,14 +656,30 @@ address p {
     margin-bottom: 1em;
 }
 
+/* お品書き、メニュー */
 .menu-box {
-    width: 300px;
+    width: 600px;
     height: 200px;
 }
 
 section.menu-box img {
-    width: 300px;
+    width: 600px;
     height: 200px;
     object-fit: cover;
+}
+
+.menu-caution {
+    margin-top: 1em;
+    margin-bottom: 4.5em;
+}
+
+.menu-caution li {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.menu-caution li::before {
+    content: '※';
+    padding-right: 0.5rem;
 }
 

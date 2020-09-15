@@ -47,7 +47,7 @@ wp_deregister_script('jquery');
       <!-- スライダーのラッパー部分 -->
        <ul class="swiper-wrapper">
           <!-- スライダー本体 -->
-           <li class="swiper-slide"><img src="<?php echo esc_url(get_theme_file_uri('images/slide01_02.jpg')); ?>" alt=""></li>
+           <li class="swiper-slide"><img src="<?php echo esc_url(get_theme_file_uri('images/slide03_1.jpg')); ?>" alt="" width="100%"></li>
            <li class="swiper-slide"><img src="<?php echo esc_url(get_theme_file_uri('images/slide02_02.jpg')); ?>" alt=""></li>
        </ul>
        <!-- スライドのページネイション -->
@@ -71,19 +71,22 @@ wp_deregister_script('jquery');
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">初味寿司について</a>
+                        <a class="nav-link" href="#">本日のおすすめ<span></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">店舗情報</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">メニュー</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">予約</a>
+                        <a class="nav-link" href="#">会食や法事など</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">宴会</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">アクセス</a>
+                        <a class="nav-link" href="#"><img src="<?php echo esc_url(get_theme_file_uri('images/facebook.png')); ?>" alt="facebook"></a>
+                        <a href="#" class="nav-link">
+                            <img src="<?php echo esc_url(get_theme_file_uri('images/instagram.png')); ?>" alt="instagram">
+                        </a>
                     </li>
                 </ul>
             </nav>

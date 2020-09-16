@@ -16,29 +16,49 @@
                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                     <img src="<?php echo esc_url(get_theme_file_uri('images/shop-gate2.jpg')); ?>" alt="">
                 </div>
-                <div class="col-12">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 text-center">
+                   <img src="<?php echo esc_url(get_theme_file_uri('images/shop-counter1.jpg')); ?>" alt="">
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                     <div class="container-inner">
-                        <img src="<?php echo esc_url(get_theme_file_uri('images/shop-counter1.jpg')); ?>" alt="">
-                        <p class="text-left mb-5">カウンターは黒御影石。床はこだわりの笏谷石。<br>そして５ｍを超える一枚ガラスのネタケースの中は、地元市場仕入れた旬の魚たちが並ぶんでいます。<br>シャリは、奥越産コシヒカリを越前市赤谷町の名水で炊き上げ、相性の良いまろやかな山吹酢と合わせ仕上げる。<br>ようこそ、いらっしゃいませ。<br>五感で味わう至福のひと時を、ご堪能ください。</p>
-                    </div><!-- container-inner end -->
+                        <p class="mt-3 mb-5">カウンターは黒御影石。床はこだわりの笏谷石。<br>そして５ｍを超える一枚ガラスのネタケースの中は、地元市場仕入れた旬の魚たちが並んでいます。</p>
+                    </div>
                 </div>
-                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
-                    <img src="<?php echo esc_url(get_theme_file_uri('images/shop-gate3.jpg')); ?>" alt="">
+                <div class="grid-box1">
+                    <div class="box-item">
+                        <img src="<?php echo esc_url(get_theme_file_uri('images/shop-gate3.jpg')); ?>" alt="">
+                    </div>
+                    <div class="box-item">
+                        <img src="<?php echo esc_url(get_theme_file_uri('images/rise.jpg')); ?>" alt="">
+                    </div>
                 </div>
-                <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
-                    <img src="<?php echo esc_url(get_theme_file_uri('images/rise.jpg')); ?>" alt="">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                    <p class="mt-3 mb-5">シャリは、奥越産コシヒカリを越前市赤谷町の名水で炊き上げ、<br>相性の良いまろやかな山吹酢と合わせ仕上げています。</p>
                 </div>
+                <div class="col-12">
+                   <div class="container-inner">
+                       <p class="mb-12 pl-5">
+                        ようこそ、いらっしゃいませ。<br>五感で味わう至福のひと時を、ごゆっくりとご堪能ください。
+                    </p>
+                   </div>
+                </div>
+                <button class="button-square centering mt-5">詳しく<i class="fas fa-angle-double-right pl-3"></i></button>
             </div><!-- row end -->
         </div><!-- container end -->
     </section><!-- section1 end -->
 
     <section class="section02">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
-                <img src="<?php echo esc_url(get_theme_file_uri('')); ?>" alt="">
-            </div>
-        </div>
-    </section><!-- section02 end -->
+<!--               サブループ-->
+               
+               <div class="grid-box2">
+                   
+               </div>
+                
+            </div><!-- row end -->
+        </div><!-- container end -->
+    </section><!-- section2 end -->
 
     <section class="section03">
         <div class="container">

@@ -4,7 +4,7 @@
 
 	Theme Name: 初味寿司
 	Description: 初味寿司
-	Author: 初見寿司
+	Author: 初味寿司
 	
 -----------------------------------------------------------------------------------
 
@@ -574,6 +574,14 @@ section:nth-of-type(odd) {
     width: min(80%, 800px);
     margin: 0 auto;
 }
+.grid-box1 {
+    display: grid;
+    margin: 0 auto;
+    max-width: 100%;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 50px;
+}
+
 .content-list {
     width: 60%;
     margin: 50px auto 35px;
@@ -683,3 +691,15 @@ section.menu-box img {
     padding-right: 0.5rem;
 }
 
+.inf-box p,.inf-box h3,.inf-box h4 {
+    text-align: center;
+}
+
+.inf-title {
+    padding-top: 50px;
+}
+
+.inf-btn {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}

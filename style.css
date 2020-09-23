@@ -215,6 +215,10 @@ img {
 	height: auto;
 }
 
+section {
+    padding: 3rem 0px;
+}
+
 ::selection {
 	background: #333;
 	color: #fff;
@@ -264,7 +268,7 @@ img {
     background: #fff;
 }
 
-section:nth-of-type(odd) {
+.section:nth-of-type(odd) {
     background: rgba(234, 234, 234, 0.7);
 }
 
@@ -345,10 +349,6 @@ section:nth-of-type(odd) {
 	object-fit: cover;
 }
 
-.grid-image {
-    max-width: 800px;
-}
-
 /* -------------------------------------------------------------------------------- */
 /*	4.	Heading
 /* -------------------------------------------------------------------------------- */
@@ -366,19 +366,10 @@ section:nth-of-type(odd) {
 /* スライドショー部分 */
 
 .slide-heading {
-    word-break: keep-all;
-/*    text-align: right;*/
-/*    padding-right: 4rem;*/
+    max-width: 1000px;
     position: absolute;
     top: 100px;
-    left: 50%;
-    z-index: 2;
-}
-.slide-p {
-    word-break: keep-all;
-    position: absolute;
-    top: 400px;
-    left: 76%;
+    right: 0;
     z-index: 2;
 }
 
@@ -393,7 +384,7 @@ section:nth-of-type(odd) {
 .swiper-slide img {
     display: block;
     margin: 0 auto;
-    max-width:1920px;
+    max-width: 100%;
     filter: brightness(80%);
 }
 
@@ -558,14 +549,22 @@ section:nth-of-type(odd) {
     padding: 10px;
     background: #333;
     border: 1px solid #333;
+    cursor: pointer;
+}
+
+.button-square a {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 0 #333, -1px 1px 0 #333, 1px -1px 0 #333, -1px -1px 0 #333;
 }
 
 .button-square:hover {
-    color: #333;
+    color: rgb(51, 51, 51);
     background: #ccc;
     transition: all 0.4s ease-in;
 }
-
+.button-square a:hover {
+    text-decoration: none;
+}
 /* -------------------------------------------------------------------------------- */
 /*	8.	Top Page
 /* -------------------------------------------------------------------------------- */
@@ -582,46 +581,73 @@ section:nth-of-type(odd) {
     grid-column-gap: 50px;
 }
 
-.content-list {
-    width: 60%;
-    margin: 50px auto 35px;
-    padding: 20px 0 20px 5em;
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
+.grid-box2 {
+    display: grid;
+    max-width: calc(100% - 10px);
+    margin: 5em auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-flow: row;
+    grid-gap: 5px;
 }
 
-.content-list .col-6 {
-    margin-bottom: 1em;
+.grid-box3 {
+    display: grid;
+    width: 50%;
+    border-top: 1px solid #707070;
+    border-bottom: 1px solid #707070;
+    margin: auto auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    justify-content: center;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 100px;
+    grid-row-gap: 15px;
 }
-
-ul.room-list li {
+.grid-box3 .box-item {
     text-indent: 1em;
 }
 
-.section07 {
-    padding-bottom: 6rem;
-}
+/* section4 オリジナル商品 */
 
-.section07 address {
-    margin-left: 35%;
-}
-
-address p {
+.sec4-header {
+    min-height: 3em;
+    word-break: keep-all;
     margin-bottom: 1em;
 }
 
-.map-button {
-    position: relative;
-    left: 42.5%;
-    bottom: 50px;
-}
-.section08 {
-    text-align: center;
+.product-image1 {
+    width: 360px;
 }
 
-.section08 iframe {
-    max-width: 1200px;
-    margin-top: -80px;
+.product-name {
+    margin: 1em;
+}
+
+.product-caption {
+    width: 80%;
+    word-break: break-all;
+}
+/* section5 */
+
+.grid-box4 {
+    display: grid;
+    width: 500px;
+    margin-bottom: 3rem;
+    grid-template-columns: 150px 200px;
+    grid-template-rows: repeat(6, 1.5em);
+    grid-row-gap: 5px;
+}
+.mail, .address {
+    grid-column-end: span 2;
+}
+.work-time {
+    grid-row-end: span 2;
+}
+.gmap-mini {
+    width: 100%;
+    height: 400px;
 }
 
 
@@ -650,9 +676,23 @@ address p {
 /* -------------------------------------------------------------------------------- */
 
 .footer {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     background: #333;
+}
+
+.footer li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.footer li a {
+    color: #fff;
+}
+
+.copy-right {
+    position: absolute;
+    bottom: 0;
 }
 
 /* -------------------------------------------------------------------------------- */
@@ -702,4 +742,26 @@ section.menu-box img {
 .inf-btn {
     margin-top: 100px;
     margin-bottom: 100px;
+}
+
+/* 店舗情報 */
+
+.info-section:nth-of-type(even) {
+    background: rgba(234, 234, 234, 0.7);
+}
+
+/* 会食や法事など */
+
+.event::after {
+    content: '';
+    padding: 0 100px;
+    border-bottom: 1px solid #707070;
+    position: relative;
+    left: 15px;
+    bottom: 20px;
+}
+
+.grid-box5 {
+    padding-left: 15px;
+    padding-right: 15px;
 }

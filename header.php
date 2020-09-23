@@ -34,14 +34,9 @@ wp_deregister_script('jquery');
 <div class="wrapper"><!-- wrapper start ▼ -->
 <header id="header" class="header">
    
-   <h2 class="slide-heading">
-   <span class="em125">福井の魚と食材にこだわり　美味探求</span>
-   </h2>
-   <p class="slide-p">
-       <span class="em150">
-    米と水、魚が出会って<br>ひと握りの寿司になる
-       </span>
-    </p>
+   <h1 class="slide-heading">
+       <img src="<?php echo esc_url(get_theme_file_uri('images/header-main.png')); ?>" alt="">
+   </h1>
    <!-- スライダーのコンテナ部分 -->
    <div class="swiper-container">
       <!-- スライダーのラッパー部分 -->
@@ -74,7 +69,7 @@ wp_deregister_script('jquery');
                         <a class="nav-link" href="#">本日のおすすめ<span></span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">店舗情報</a>
+                        <a class="nav-link" href="<?php echo esc_url(home_url('infomation')) ?>">店舗情報</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">メニュー</a>

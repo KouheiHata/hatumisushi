@@ -8,33 +8,79 @@ Template Name: 店舗情報
 
 <?php get_header(); ?>
 
-<div class="container-fluid bg-white">
-<div class="container">
-    <div class="row">
-        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 my-5">
-            <div class="inf-box">
-                <h3>店舗情報</h3>
-                <h4 class="inf-title">営業時間</h4>
-                <p>12:00～24:00（L.O.24:00）</p>
-                <h4 class="inf-title">営業日</h4>
-                <p>定休日：日曜日</p>
-                <h4 class="inf-title">座席</h4>
-                <p>大部屋 6～20人、8畳間 4～6人、囲炉裏部屋 4～8人 カウンター 8席</p>
-                <h4 class="inf-title">駐車場</h4>
-                <p>10台</p>
-                <h4 class="inf-title">禁煙/喫煙</h4>
-                <p>屋内原則禁煙</p>
-                <h4 class="inf-title">最寄り駅</h4>
-                <p>福井鉄道福武線 ／ 商工会議所前駅 徒歩4分（300m）<br>福井鉄道福武線 ／ 赤十字前駅 徒歩4分（320m）<br>福井鉄道福武線 ／ 足羽山公園口駅 徒歩10分（760m）</p>
-                <div class="inf-btn">
-                    <button class="button-square centering">
-                        <span>ご予約はこちら</span><span>▶</span>
-                    </button>
+<main id="main" class="main">
+    <section class="info-section">
+        <div class="container">
+            <div class="row">
+                <h2 class="col-12">営業時間</h2>
+                <p class="col-12 mb-5">１１：００～１４：００</p>
+                <h2 class="col-12">定休日</h2>
+                <p class="col-12 mb-5">毎週日曜（法事など特別な予約にはご相談承ります）</p>
+                <h2 class="col-12 mb-3">部屋数、座席数</h2>
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+                    <img src="<?php echo esc_url(get_theme_file_uri('images/counter-seat.jpg')); ?>" alt="">
+                    <p class="text-center mb-3">１階　カウンター席（最大８人）</p>
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+                    <img src="<?php echo esc_url(get_theme_file_uri('images/large-room2.jpg')); ?>" alt="">
+                    <p class="text-center mb-3">２階　大部屋（８人～２０人）</p>
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 offset-md-2">
+                    <img src="<?php echo esc_url(get_theme_file_uri('images/8mat-room.jpg')); ?>" alt="">
+                    <p class="text-center mb-3">２階　８畳間（４人～６人）</p>
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+                    <img src="<?php echo esc_url(get_theme_file_uri('images/hearth-room.jpg')); ?>" alt="">
+                    <p class="text-center mb-3">１階　囲炉裏部屋（４人～８人）</p>
+                </div>
+                <p class="col-xl-10 col-lg-10 col-md-10 col-sm-10 offset-md-2 mt-3">足や膝の負担が少なく、お食事と会話を楽しんでいただけますようにテーブルと椅子に、１階の囲炉裏部屋は一部が足を降ろし腰掛け出来るようになっています。</p>
+                <h2 class="col-12 mt-5">駐車場</h2>
+                <p class="col-12 mb-5">１０台までお車を駐車できます。</p>
+                <h2 class="col-12">お子様のお食事について</h2>
+                <p class="col-12 mb-5">お食事をお子様向けにしてお出しすることも出来ます。</p>
+                <h2 class="col-12">喫煙</h2>
+                <p class="col-12 mb-5">全面喫煙となっております。</p>
+                <h2 class="col-12">アクセス</h2>
+                <p class="col-12 mb-5">商工会議所前駅/福武線　徒歩４分（300m）</p>
+                <h2 class="col-12">お支払い方法</h2>
+                <p class="col-12 mb-5">各種クレジットカードなど</p>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                    <h2 class="">ご予約</h2>
+                    <p class="mb-3">TEL:0776-36-7017</p>
+                    <button class="button-square"><a href="#">予約サイト<i class="fas fa-angle-double-right pl-3"></i></a></button>
+                    <p class="mt-3">※予約サイトで仮予約後、こちらからお電話して確定となります。</p>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                    <img src="<?php echo esc_url(get_theme_file_uri('images/back-door.jpg')); ?>" alt="裏口">
+                    <p class="">裏から入ればそのまま囲炉裏部屋などの個室を利用できます。</p>
+                </div>
+            </div>
+        </div><!-- container end -->
+
+    </section><!-- section06 end -->
+    <section class="info-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                    <h2 class="mb-3">初見寿司　本店</h2>
+                    <address class="grid-box4">
+                        <div class="box-item mail">〒918-8005</div>
+                        <div class="box-item address">福井県福井市みのり2-3-12</div>
+                        <div class="box-item">TEL</div>
+                        <div class="box-item">0776-36-7017</div>
+                        <div class="box-item">定休日</div>
+                        <div class="box-item">日曜日</div>
+                        <div class="box-item work-time">営業時間</div>
+                        <div class="box-item work-time">11:00~14:00<br>17:00~23:00</div>
+                    </address>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                    <img src="<?php echo esc_url(get_theme_file_uri('images/hatumi-map.jpg')); ?>" alt="">
                 </div>
             </div>
         </div>
-    </div>
-</div>
-</div>    
+        
+    </section><!-- section07 -->
+</main><!-- main end -->
 
 <?php get_footer(); ?>

@@ -2,11 +2,17 @@
     
     <div class="container">
         <div class="row">
-            <div class="container-inner">
-               
-                <p class="text-center text-white">© copy right 2020</p>
-                
-            </div>
+           <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3">
+               <ul class="">
+                   <li><a href="<?php echo esc_url(home_url('/')); ?>">HOME</a></li>
+                   <li><a href="#">店舗情報</a></li>
+                   <li><a href="#">メニュー</a></li>
+                   <li><a href="#">会食や法事など</a></li>
+               </ul>
+           </div>
+           <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 offset-md-6 text-white">
+               <p class="copy-right"><small>&copy; 2020 hatumisushi.</small></p>
+           </div>
         </div>
     </div>
 

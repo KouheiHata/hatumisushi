@@ -17,9 +17,22 @@ get_header(); ?>
                     <p class="text-center">お食い初め</p>
                 </div>
                 <div class="grid-box5">
+                    <div class="box-item col3-box">
+                        <h2 class="mb-5 event">出張料理</h2>
+                        <p class="">ご自宅で、お店の味をご堪能いただけます。<br>お料理はもちろん、器など全てをご用意して、料理人が伺わせていただきます。<br>なお温かなお料理を調理するのに、お台所をお借りすることがあります。</p>
+                        <p class="">※時間、人数、お料理内容、ご予算は要相談</p>
+                    </div>
+                    <div class="box-item col2-box">
+                        <img src="<?php echo esc_url(get_theme_file_uri('images/food3.jpg')); ?>" alt="">
+                    </div>
                     <div class="box-item">
-                        <h2 class="event">出張料理</h2>
-                        <p class=""></p>
+                        <img src="<?php echo esc_url(get_theme_file_uri('images/food4.jpg')); ?>" alt="">
+                    </div>
+                    <div class="box-item">
+                        <img src="<?php echo esc_url(get_theme_file_uri('images/food5.jpg')); ?>" alt="">
+                    </div>
+                    <div class="box-item">
+                        <img src="<?php echo esc_url(get_theme_file_uri('images/food6.jpg')); ?>" alt="">
                     </div>
                 </div>
             </div>

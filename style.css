@@ -762,6 +762,31 @@ section.menu-box img {
 }
 
 .grid-box5 {
+    width: 100%;
     padding-left: 15px;
     padding-right: 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.col3-box {
+    grid-column-end: span 3;
+}
+
+.grid-box5 .box-item:nth-of-type(2) {
+    order: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.grid-box5 .box-item:nth-of-type(3) {
+    order: 5;
+}
+
+.grid-box5 .box-item:nth-of-type(4) {
+    order: 2;
+}
+.grid-box5 .box-item:nth-of-type(5) {
+    order: 4;
 }

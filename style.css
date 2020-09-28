@@ -272,6 +272,20 @@ section {
     background: rgba(234, 234, 234, 0.7);
 }
 
+/* css grid */
+
+.col2-box {
+    grid-column-end: span 2;
+}
+.col3-box {
+    grid-column-end: span 3;
+}
+.row2-box {
+    grid-row-end: span 2;
+}
+.row3-box {
+    grid-row-end: span 3;
+}
 
 /* -------------------------------------------------------------------------------- */
 /*	2.	Font
@@ -366,11 +380,15 @@ section {
 /* スライドショー部分 */
 
 .slide-heading {
-    max-width: 1000px;
+    max-width: 1500px;
     position: absolute;
-    top: 100px;
-    right: 0;
+    top: 240px;
+    right: 150px;
     z-index: 2;
+}
+
+.slide-heading img {
+    width: 800px;
 }
 
 .swiper-container {
@@ -555,6 +573,7 @@ section {
 .button-square a {
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 0 #333, -1px 1px 0 #333, 1px -1px 0 #333, -1px -1px 0 #333;
+    transition: all 0.4s ease-in;
 }
 
 .button-square:hover {
@@ -563,6 +582,8 @@ section {
     transition: all 0.4s ease-in;
 }
 .button-square a:hover {
+    color: rgb(51, 51, 51);
+    text-shadow: none;
     text-decoration: none;
 }
 /* -------------------------------------------------------------------------------- */
@@ -574,24 +595,34 @@ section {
     margin: 0 auto;
 }
 .grid-box1 {
+    display: -ms-grid;
     display: grid;
     margin: 0 auto;
-    max-width: 100%;
+    width: 100%;
+    -ms-grid-template-columns:1fr 2fr;
     grid-template-columns: 1fr 2fr;
     grid-column-gap: 50px;
 }
 
+.grid-box1 > .box-item:nth-of-type(2) {
+    text-align: right;
+}
+
 .grid-box2 {
+    display: -ms-grid;
     display: grid;
     max-width: calc(100% - 10px);
     margin: 5em auto;
+    -ms-grid-template-columns:1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-template-rows: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-auto-flow: row;
     grid-gap: 5px;
 }
 
 .grid-box3 {
+    display: -ms-grid;
     display: grid;
     width: 50%;
     border-top: 1px solid #707070;
@@ -705,6 +736,61 @@ section {
 }
 
 /* お品書き、メニュー */
+.menu-back {
+    background-image: url("images/bamboo-leaf.png");
+    background-position: top 0 left 100px;
+    background-repeat: repeat-y;
+    background-size: 90% auto;
+    background-attachment: fixed;
+}
+
+.grid-box6 {
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+
+.grid-box6 .box-item:nth-of-type(2){
+    z-index: 2;
+}
+.grid-box6 .box-item:nth-of-type(6) {
+    grid-row-start: 3;
+    grid-row-end:4;
+}
+.grid-box6 .box-item:nth-of-type(8) {
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+.grid-box6 .box-item:nth-of-type(9) {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.menu-title {
+    color: #ffffff;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.menu-p {
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.menu-description1 {
+    grid-column-start: 2;
+    grid-column-end: span 2;
+    grid-row-start: 2;
+    grid-row-end: span 2;
+}
+
+
 .menu-box {
     width: 600px;
     height: 200px;
@@ -746,11 +832,29 @@ section.menu-box img {
 
 /* 店舗情報 */
 
-.info-section:nth-of-type(even) {
+.map-section {
     background: rgba(234, 234, 234, 0.7);
 }
 
 /* 会食や法事など */
+
+.event-section {
+    min-height: 350px;
+}
+
+.circle1 {
+    background: url("images/circle1.png") no-repeat;
+    background-position: top 10px left 100px;
+}
+
+.circle2 {
+    background: url("images/circle2.png") no-repeat;
+    background-position: top 40px left 100px;
+}
+.circle3 {
+    background: url("images/circle3.png") no-repeat;
+    background-position: top 0px left 100px;
+}
 
 .event::after {
     content: '';
@@ -763,15 +867,22 @@ section.menu-box img {
 
 .grid-box5 {
     width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
+    margin-top: 100px;
+    margin-bottom: 50px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 30px;
 }
 
-.col3-box {
-    grid-column-end: span 3;
+.grid-box5 .box-item:not(first-of-type) {
+    text-align: center;
+}
+
+.grid-box5 .box-item img {
+    width: 210px;
+    height: 250px;
+    object-fit: cover;
 }
 
 .grid-box5 .box-item:nth-of-type(2) {

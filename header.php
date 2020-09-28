@@ -35,7 +35,7 @@ wp_deregister_script('jquery');
 <header id="header" class="header">
    
    <h1 class="slide-heading">
-       <img src="<?php echo esc_url(get_theme_file_uri('images/header-main.png')); ?>" alt="">
+       <img src="<?php echo esc_url(get_theme_file_uri('images/header-main.svg')); ?>" alt="">
    </h1>
    <!-- スライダーのコンテナ部分 -->
    <div class="swiper-container">

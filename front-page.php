@@ -42,7 +42,7 @@
                         </p>
                     </div>
                 </div>
-                <button class="button-square centering mt-5"><a href="#">詳しくはこちら<i class="fas fa-angle-double-right pl-3"></i></a></button>
+                <button class="button-square centering mt-5"><a href="<?php echo esc_url(home_url('information')); ?>">店舗情報を<br>より詳しく<i class="fas fa-angle-double-right pl-3"></i></a></button>
             </div><!-- row end -->
         </div><!-- container end -->
     </section><!-- section1 end -->
@@ -86,7 +86,7 @@
                     <div class="box-item">3,500円</div>
                 </div>
                 <div class="col-12 mt-5">
-                    <button class="button-square centering"><a href="<?php echo esc_url(home_url('/menu')) ?>">詳しくはこちら<i class="fas fa-angle-double-right pl-3"></i></a></button>
+                    <button class="button-square centering"><a href="<?php echo esc_url(home_url('/menu')) ?>">メニューを<br>より詳しく<i class="fas fa-angle-double-right pl-3"></i></a></button>
                 </div>
                 
             </div><!-- row end -->
@@ -117,7 +117,7 @@
                    </div>
                </div>
                <div class="col-12">
-                   <button class="button-square centering"><a href="#">詳しくはこちら<i class="fas fa-angle-double-right pl-3"></i></a></button>
+                   <button class="button-square centering"><a href="#">会食や法事などを<br>より詳しく<i class="fas fa-angle-double-right pl-3"></i></a></button>
                </div>
             </div><!-- row end -->
         </div><!-- container end -->

@@ -15,7 +15,7 @@ Template Name: お品書き
                <img src="<?php echo esc_url(get_theme_file_uri('images/sasimi1.jpg')); ?>" alt="鱧">
            </div>
            <div class="box-item">
-               <img src="<?php echo esc_url(get_theme_file_uri('images/conger.jpg')); ?>" alt="">
+               <img src="<?php echo esc_url(get_theme_file_uri('images/conger.jpg')); ?>" alt="" width="207">
            </div>
            <div class="box-item">
                <img src="<?php echo esc_url(get_theme_file_uri('images/rolls-sushi.jpg')); ?>" alt="">
@@ -44,6 +44,84 @@ Template Name: お品書き
            </div>
            <div class="box-item">
                <img src="<?php echo esc_url(get_theme_file_uri('images/crab3.jpg')); ?>" alt="">
+           </div>
+       </div><!-- grid-box6 end -->
+       <div class="grid-box7">
+           <div class="box-item box-item1">
+               <img src="<?php echo esc_url(get_theme_file_uri('images/tamago1.jpg')); ?>" alt="">
+           </div>
+           <div class="box-item box-item2">
+               <img src="<?php echo esc_url(get_theme_file_uri('images/takenoko.jpg')); ?>" alt="">
+           </div>
+           <div class="box-item box-item3">
+               <img src="<?php echo esc_url(get_theme_file_uri('images/nimono.jpg')); ?>" alt="">
+           </div>
+           <div class="box-item box-item4">
+               <img src="<?php echo esc_url(get_theme_file_uri('images/ayuyaki.jpg')); ?>" alt="">
+           </div>
+           <div class="box-item box-item5 menu-description2">
+               <h2 class="menu-title">一品料理</h2>
+               <p class="menu-p">地元市場で仕入れた魚などの食材を<br>使ったお料理が楽しめます。</p>
+           </div>
+           <div class="box-item box-item6">
+               <img src="<?php echo esc_url(get_theme_file_uri('images/sirako.jpg')); ?>" alt="">
+           </div>
+           <div class="box-item box-item7">
+               <img src="<?php echo esc_url(get_theme_file_uri('images/nimono2.jpg')); ?>" alt="">
+           </div>
+           <div class="box-item box-item8">
+               <img src="<?php echo esc_url(get_theme_file_uri('images/nimono3.jpg')); ?>" alt="">
+           </div>
+           <div class="box-item box-item9">
+               <img src="<?php echo esc_url(get_theme_file_uri('images/katuotataki.jpg')); ?>" alt="">
+           </div>
+       </div><!-- grid-box7 end -->
+       <h2 class="menu-title">福井の地酒</h2>
+       <p class="menu-p">春のフレッシュな「しぼりたて」<br>夏の「生酒」<br>秋の「ひやおろし」など<br>季節によって美味しいお酒をご用意しております。</p>
+       <div class="text-center mt-5">
+           <img src="<?php echo esc_url(get_theme_file_uri('images/nihonshu.jpg')); ?>" alt="">
+       </div>
+       <div class="grid-box8">
+           <div class="box-item box-item1 col2-box">
+               <h2 class="menu-title">通常メニュー</h2>
+           </div>
+           <div class="box-item box-item2">
+               <h3 class="">盛り合わせ<br>1,800円</h3>
+               <p class="">握り８貫　または　握り６貫と細巻き１本</p>
+               <p class="">その日のおすすめの季節ネタが入った、満足の握り</p>
+           </div>
+           <div class="box-item box-item3">
+               <img src="<?php echo esc_url(get_theme_file_uri('images/nigiri1.jpg')); ?>" alt="">
+           </div>
+           <div class="box-item box-item4">
+               <h3 class="">上にぎり<br>2,800円</h3>
+               <p class="">握り８貫</p>
+               <p class="">イクラとウニが入った、豪華な握り。</p>
+           </div>
+           <div class="box-item box-item5">
+               <img src="<?php echo esc_url(get_theme_file_uri('images/nigiri2.jpg')); ?>" alt="">
+           </div>
+           <div class="box-item box-item6">
+               <h3 class="">特上にぎり<br>3,500円</h3>
+               <p class="">握り８貫</p>
+               <p class="">トロとイクラ、ウニが入った、至福の握り</p>
+           </div>
+           <div class="box-item box-item7">
+               <img src="<?php echo esc_url(get_theme_file_uri('images/nigiri3.jpg')); ?>" alt="">
+           </div>
+           <div class="box-item box-item8">
+               <h3 class="">ちらし<br>1,800円</h3>
+               <p class="">季節のネタがぎっしりと入った、ちらし寿司はどこから食べようか迷うほど</p>
+           </div>
+           <div class="box-item box-item9">
+               <img src="<?php echo esc_url(get_theme_file_uri('images/chirashi.jpg')); ?>" alt="">
+           </div>
+           <div class="box-item box-item10">
+               <h3 class="">特巻<br>3,500円</h3>
+               <p class="">８種類のネタが入った、迫力の巻き寿司。</p>
+           </div>
+           <div class="box-item box-item11">
+               <img src="<?php echo esc_url(get_theme_file_uri('images/futomaki.jpg')); ?>" alt="">
            </div>
        </div>
    </div>

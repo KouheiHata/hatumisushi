@@ -66,16 +66,16 @@ wp_deregister_script('jquery');
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">本日のおすすめ<span></span></a>
+                        <a class="nav-link" href="<?php echo esc_url(home_url('/')); ?>">本日のおすすめ<span></span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo esc_url(home_url('infomation')) ?>">店舗情報</a>
+                        <a class="nav-link" href="<?php echo esc_url(home_url('infomation')); ?>">店舗情報</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">メニュー</a>
+                        <a class="nav-link" href="<?php echo esc_url(home_url('menu')); ?>">メニュー</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">会食や法事など</a>
+                        <a class="nav-link" href="<?php echo esc_url(home_url('event')); ?>">会食や法事など</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#"><img src="<?php echo esc_url(get_theme_file_uri('images/facebook.png')); ?>" alt="facebook"></a>

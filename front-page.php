@@ -26,7 +26,7 @@
                 </div>
                 <div class="grid-box1">
                     <div class="box-item">
-                        <img src="<?php echo esc_url(get_theme_file_uri('images/shop-gate3.jpg')); ?>" alt="">
+                        <img src="<?php echo esc_url(get_theme_file_uri('images/meisui.jpg')); ?>" alt="">
                     </div>
                     <div class="box-item">
                         <img src="<?php echo esc_url(get_theme_file_uri('images/rise.jpg')); ?>" alt="">

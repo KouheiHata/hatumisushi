@@ -259,6 +259,31 @@ section {
     border-radius: 5px;
 }
 
+/* 予約ボタン */
+.reserve {
+    font-size: 30px;
+    font-weight: bold;
+    height: 190px;
+    border: 20px solid #d65050;
+    border-radius: 15px 0 0 15px;
+    background: #D65050;
+    position: fixed;
+    text-align: center;
+    vertical-align: middle;
+    letter-spacing: 0.5em;
+    top: 200px;
+    right: 0;
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    z-index: 9999;
+}
+.reserve a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 .main {
     background: #fff;
 }
@@ -377,7 +402,7 @@ section {
 .slide-heading {
     max-width: 1500px;
     position: absolute;
-    top: 240px;
+    top: 180px;
     right: 150px;
     z-index: 2;
 }
@@ -398,6 +423,10 @@ section {
     display: block;
     margin: 0 auto;
     max-width: 100%;
+    filter: brightness(80%);
+}
+/*お品書きトップ */
+.menu-top {
     filter: brightness(80%);
 }
 
@@ -885,26 +914,27 @@ section {
     display: -ms-grid;
     display: grid;
     width: 1000px;
+    margin-top: 240px;
     margin-left: auto;
     margin-right: auto;
+    grid-row-gap: 38px;
     grid-template-columns: 500px 500px;
     grid-template-rows: repeat(6, 1fr);
 }
+
+.grid-box8 .box-item h3,
+.grid-box8 .box-item p {
+    line-height: 1.5;
+}
+
+.grid-box8 .box-item h3 {
+    margin-bottom: 1rem;
+}
+
 .grid-box8 .box-item:nth-of-type(even) {
     padding-top: 0.75em;
     padding-left: 1.5em;
     background: rgba(234, 234, 234, 0.7);
-}
-
-.menu-box {
-    width: 600px;
-    height: 200px;
-}
-
-section.menu-box img {
-    width: 600px;
-    height: 200px;
-    object-fit: cover;
 }
 
 .menu-caution {

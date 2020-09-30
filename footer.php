@@ -5,9 +5,9 @@
            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3">
                <ul class="">
                    <li><a href="<?php echo esc_url(home_url('/')); ?>">HOME</a></li>
-                   <li><a href="#">店舗情報</a></li>
-                   <li><a href="#">メニュー</a></li>
-                   <li><a href="#">会食や法事など</a></li>
+                   <li><a href="<?php echo esc_url(home_url('information')); ?>">店舗情報</a></li>
+                   <li><a href="<?php echo esc_url(home_url('menu')) ?>">メニュー</a></li>
+                   <li><a href="<?php echo esc_url(home_url('event')) ?>">会食や法事など</a></li>
                </ul>
            </div>
            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 offset-md-6 text-white">
@@ -26,6 +26,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!-- fancybox -->
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
 <script>
     $(function() {

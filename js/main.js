@@ -17,6 +17,9 @@ $(function(){
 
 // スライダー
 var mySwiper = new Swiper('.swiper-container', {
+//    autoplay: {
+//        delay: 2000,
+//    },
     effect: 'fade',
     speed: 1000,
     loop: true,

@@ -157,7 +157,7 @@
 /* -------------------------------------------------------------------------------- */
 /*	13. Page
 /* -------------------------------------------------------------------------------- */
-@media screen and (min-width: 991px) { /*991pxより上のサイズに適用*/
+@media screen and (min-width: 769px) { /*768pxより上のサイズに適用*/
     /* お品書き */
     .grid-box8 .box-item4 {
         order: 5;
@@ -166,7 +166,22 @@
         order: 4;
     }
     .grid-box8 .box-item6 {
-        
+        order: 6;
+    }
+    .grid-box8 .box-item7 {
+        order: 7;
+    }
+    .grid-box8 .box-item8 {
+        order: 9;
+    }
+    .grid-box8 .box-item9 {
+        order: 8;
+    }
+    .grid-box8 .box-item10 {
+        order: 10;
+    }
+    .grid-box8 .box-item11 {
+        order: 11;
     }
 }
 

@@ -141,7 +141,6 @@ Template Name: お品書き
             <h2 class="mt-5 pl-5 font-weight-bold">注意</h2>
             <ul class="pl-5 menu-caution">
                 <li>表示価格は全て税抜きです</li>
-                <li>時価なので表示と違うことがあります</li>
                 <li>市場からの新鮮な素材を使用しているため、その日によって違った素材が出ます</li>
             </ul>
         </div>

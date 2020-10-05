@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                <h2 class="mb-3">初見寿司　本店</h2>
+                <h2 class="mb-3">初味寿司　本店</h2>
                 <address class="grid-box4">
                     <div class="box-item mail">〒918-8005</div>
                     <div class="box-item address">福井県福井市みのり2-3-12</div>

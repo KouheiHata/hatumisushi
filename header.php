@@ -24,9 +24,6 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-    <meta name="google-site-verification" content="pfS2MJ3FKZwjaewn5tDTRd3EeSgwWEDA033TYvl6a70" />
-
     <?php
 wp_deregister_script('jquery');
 ?>
@@ -47,15 +44,18 @@ wp_deregister_script('jquery');
                 <!-- スライダーのラッパー部分 -->
                 <ul class="swiper-wrapper">
                     <!-- スライダー本体 -->
-                    <li class="swiper-slide"><img src="<?php echo esc_url(get_theme_file_uri('images/slide03_1.jpg')); ?>" alt="" width="100%"></li>
-                    <li class="swiper-slide"><img src="<?php echo esc_url(get_theme_file_uri('images/slide02_02.jpg')); ?>" alt=""></li>
+                    <li class="swiper-slide"><img src="<?php echo esc_url(get_theme_file_uri('images/slide01.jpg')); ?>" alt=""></li>
+                    <li class="swiper-slide"><img src="<?php echo esc_url(get_theme_file_uri('images/slide02.jpg')); ?>" alt=""></li>
+                    <li class="swiper-slide"><img src="<?php echo esc_url(get_theme_file_uri('images/slide03.jpg')); ?>" alt=""></li>
+                    <li class="swiper-slide"><img src="<?php echo esc_url(get_theme_file_uri('images/slide04.jpg')); ?>" alt=""></li>
                 </ul>
             </div>
-            <?php elseif (is_page('information')): // 店舗情報 ?>
-            <img src="<?php echo esc_url(get_theme_file_uri('images/info-top.jpg')); ?>" alt="初味寿司正面">
-            <?php elseif (is_page('menu')): //お品書き ?>
-            <img src="<?php echo esc_url(get_theme_file_uri('images/menu-top.jpg')); ?>" alt="寿司盛り合わせ" class="menu-top">
-            <?php elseif (is_page('event')): //会食や法事 ?>
+            <?php elseif (is_page('information')): // 店舗情報トップ ?>
+            <div class="info-header"></div>
+            <?php elseif (is_page('menu')): //お品書きトップ ?>
+            <div class="menu-header"></div>
+<!--            <img src="<?php echo esc_url(get_theme_file_uri('images/menu-top.jpg')); ?>" alt="寿司盛り合わせ" class="menu-top">-->
+            <?php elseif (is_page('event')): //会食や法事トップ ?>
             <div class="swiper-container">
                 <ul class="swiper-wrapper">
                     <li class="swiper-slide"><img src="<?php echo esc_url(get_theme_file_uri('images/event-top1.jpg')); ?>" alt=""></li>
@@ -76,11 +76,17 @@ wp_deregister_script('jquery');
                                 <img class="logo" src="<?php echo esc_url(get_theme_file_uri('images/logo-white.png')); ?>" alt="ブランド">
                             </a>
                         </li>
+                        <?php if(is_home() || is_front_page() ): //トップ ?>
                         <li class="nav-item">
                             <a class="nav-link" href="<?php echo esc_url(home_url('/')); ?>">本日のおすすめ<span></span></a>
                         </li>
+                        <?php else : //トップ以外?>
                         <li class="nav-item">
-                            <a class="nav-link" href="<?php echo esc_url(home_url('infomation')); ?>">店舗情報</a>
+                            <a href="<?php echo esc_url(home_url('/')) ?>" class="nav-link">HOME</a>
+                        </li>
+                        <?php endif; ?>
+                        <li class="nav-item">
+                            <a class="nav-link" href="<?php echo esc_url(home_url('information')); ?>">店舗情報</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="<?php echo esc_url(home_url('menu')); ?>">メニュー</a>
@@ -89,8 +95,8 @@ wp_deregister_script('jquery');
                             <a class="nav-link" href="<?php echo esc_url(home_url('event')); ?>">会食や法事など</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><img src="<?php echo esc_url(get_theme_file_uri('images/facebook.png')); ?>" alt="facebook"></a>
-                            <a href="#" class="nav-link">
+                            <a class="nav-link" href="https://www.facebook.com/hatumisusi/" target="_blank"><img src="<?php echo esc_url(get_theme_file_uri('images/facebook.png')); ?>" alt="facebook"></a>
+                            <a href="https://www.instagram.com/hatumisusi/" target="_blank" class="nav-link">
                                 <img src="<?php echo esc_url(get_theme_file_uri('images/instagram.png')); ?>" alt="instagram">
                             </a>
                         </li>
@@ -98,7 +104,8 @@ wp_deregister_script('jquery');
                 </nav>
             </div>
         </div>
-        <div class="reserve"><a href="#">ご予約</a></div>
+        <!-- 予約ボタン -->
+        <div class="reserve"><a href="https://airrsv.net/hatumisushi/calendar">ご予約</a></div>
         <div class="d-block d-xl-none">
             <a class="menu">
                 <span class="menu-line menu-line-top"></span>

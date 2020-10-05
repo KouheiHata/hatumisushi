@@ -397,6 +397,24 @@ section {
     height: min(100vh, 800px);
 }
 
+.info-header {
+    width: 100%;
+    height: 100%;
+    filter: brightness(80%);
+    background-image: url("images/info-top.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.menu-header {
+    width: 100%;
+    height: 100%;
+    filter: brightness(80%);
+    background-image: url(images/menu-top.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 /* スライドショー部分 */
 
 .slide-heading {
@@ -632,6 +650,13 @@ section {
     text-align: right;
 }
 
+/* 本日のおすすめ */
+.fav-article {
+    width: 1000px;
+    margin: 0 auto;
+    border: 1px solid #707070;
+}
+
 .grid-box2 {
     display: -ms-grid;
     display: grid;
@@ -703,6 +728,11 @@ section {
 .gmap-mini {
     width: 100%;
     height: 400px;
+}
+
+.card-columns {
+    column-count: 2;
+    column-gap: 0.8rem;
 }
 
 
@@ -989,6 +1019,10 @@ section {
 .circle3 {
     background: url("images/circle3.png") no-repeat;
     background-position: top 0px left 100px;
+}
+
+.event {
+    width: 100%;
 }
 
 .event::after {

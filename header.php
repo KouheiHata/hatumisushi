@@ -119,14 +119,20 @@ wp_deregister_script('jquery');
                 <div class="row nav-wrap">
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 nav-list">
                         <ul class="nav-menu">
+                           <?php if(is_home() || is_front_page() ): //トップ ?>
                             <li class="nav-menu-item">
-                                <a href="<?php echo esc_url(home_url('/')); ?>">初味寿司について</a>
+                                <a href="<?php echo esc_url(home_url('/')); ?>">本日のおすすめ</a>
+                            </li>
+                            <?php else: //それ以外 ?>
+                            <li class="nav-menu-item">
+                                <a href="<?php echo esc_url(home_url('/')); ?>">HOME</a>
+                            </li>
+                            <?php endif; ?>
+                            <li class="nav-menu-item">
+                                <a href="<?php echo esc_url(home_url('information')); ?>">店舗情報</a>
                             </li>
                             <li class="nav-menu-item">
-                                <a href="<?php echo esc_url(home_url('menu')); ?>">">メニュー</a>
-                            </li>
-                            <li class="nav-menu-item">
-                                <a href="#">予約</a>
+                                <a href="<?php echo esc_url(home_url('menu')); ?>">メニュー</a>
                             </li>
                             <li class="nav-menu-item">
                                 <a href="#">宴会</a>

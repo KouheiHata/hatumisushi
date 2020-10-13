@@ -60,7 +60,7 @@ $(function () {
             json_string = json_string.split("};</" + "script>")[0] + "}";
             this.Arrya_data = JSON.parse(json_string);
             let datas = this.Arrya_data.entry_data.ProfilePage[0].graphql.user.edge_owner_to_timeline_media.edges;
-            for (i=0; i<9; i++) {
+            for (i=0; i<8; i++) {
                 url = datas[i].node.display_url;
                 this.html = `
                 <div class="card">

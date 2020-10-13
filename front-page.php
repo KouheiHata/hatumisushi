@@ -118,7 +118,7 @@
                     <img src="<?php echo esc_url(get_theme_file_uri('images/large-room.jpg')); ?>" alt="２階大部屋　８人～２０人" width="830">
                     <h3 class="mt-3 text-center">２階大部屋（８人～２０人）</h3>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 text-center">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 text-center mb-5">
                     <img src="<?php echo esc_url(get_theme_file_uri('images/8mat-room.jpg')); ?>" alt="２階８畳間（４人～６人）">
                     <h3 class="text-center">２階８畳間（４人～６人）</h3>
                 </div>

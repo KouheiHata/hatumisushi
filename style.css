@@ -261,11 +261,11 @@ section {
 
 /* 予約ボタン */
 #reserve {
-    font-size: 30px;
+    font-size: 22px;
     font-weight: bold;
     height: 190px;
-    border: 20px solid #d65050;
-    border-radius: 15px 0 0 15px;
+    padding-right: 10px;
+    border: 10px solid #d65050;
     background: #D65050;
     position: fixed;
     text-align: center;
@@ -729,6 +729,7 @@ section {
     width: 100%;
     height: 400px;
 }
+
 
 .card-columns {
     column-count: 2;

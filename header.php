@@ -135,10 +135,7 @@ wp_deregister_script('jquery');
                                 <a href="<?php echo esc_url(home_url('menu')); ?>">メニュー</a>
                             </li>
                             <li class="nav-menu-item">
-                                <a href="#">宴会</a>
-                            </li>
-                            <li class="nav-menu-item">
-                                <a href="#">アクセス</a>
+                                <a href="<?php echo esc_url(home_url('event')); ?>">会食や法事など</a>
                             </li>
                         </ul>
                     </div>

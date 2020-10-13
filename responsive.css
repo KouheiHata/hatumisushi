@@ -84,12 +84,16 @@
         height: 400px;
         object-fit: cover;
     }
+    .reverve {
+        padding-right: 20px;
+    }
 }
 @media screen and (max-width: 768px) {
     .reserve {
         font-size: inherit;
         height: 80px;
         border-width: 7px;
+        padding-right: 20px;
     }
     }
 @media screen and (max-width: 580px) {
@@ -102,7 +106,7 @@
     .slide-heading {
         max-width: 500px;
         top: 150px;
-        right: 40px;
+        right: 60px;
     }
     .slide-heading img {
         max-width: 250px;

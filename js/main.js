@@ -14,6 +14,18 @@ $(function(){
             return false;
         });
     });
+// 予約ボタン
+$(function(){
+    var reserve = $('#reserve');
+    reserve.hide();
+    $(window).scroll(function(){
+        if($(this).scrollTop() > 200) {
+            reserve.fadeIn();
+        } else {
+            reserve.fadeOut();
+        }
+    });
+});
 
 // スライダー
 var mySwiper = new Swiper('.swiper-container', {

@@ -46,7 +46,7 @@ wp_deregister_script('jquery');
                 <!-- スライダーのラッパー部分 -->
                 <ul class="swiper-wrapper">
                     <!-- スライダー本体 -->
-                    <li class="swiper-slide"><img src="<?php echo esc_url(get_theme_file_uri('images/slide01_pc.jpg')); ?>"
+                    <li class="swiper-slide"><img src="<?php echo esc_url(get_theme_file_uri('images/slide01.jpg')); ?>"
                     alt=""></li>
                     <li class="swiper-slide"><img src="<?php echo esc_url(get_theme_file_uri('images/slide02.jpg')); ?>" alt=""></li>
                     <li class="swiper-slide"><img src="<?php echo esc_url(get_theme_file_uri('images/slide03.jpg')); ?>" alt=""></li>
@@ -108,7 +108,7 @@ wp_deregister_script('jquery');
             </div>
         </div>
         <!-- 予約ボタン -->
-        <div class="reserve"><a href="https://airrsv.net/hatumisushi/calendar" target="_blank">ご予約</a></div>
+        <div id="reserve" class="reserve"><a href="https://airrsv.net/hatumisushi/calendar" target="_blank">ご予約</a></div>
         <div class="d-block d-xl-none">
             <a class="menu">
                 <span class="menu-line menu-line-top"></span>

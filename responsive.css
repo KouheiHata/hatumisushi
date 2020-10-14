@@ -84,7 +84,7 @@
 
 @media screen and (max-width: 1024px) {
     .header {
-        height: 450px;
+/*        height: 450px;*/
     }
     
     .slide-heading {
@@ -97,12 +97,17 @@
     }
     
     .swiper-container {
-        height: 450px;
+/*        height: 450px;*/
     }
 }
 @media screen and (max-width: 990px) {
     .header {
-        height: 300px;
+        height: auto;
+    }
+    .info-header,
+    .menu-header,
+    .other-header {
+        background-size: 100%;
     }
     .slide-heading {
         max-width: 500px;
@@ -113,16 +118,17 @@
         max-width: 400px;
     }
     .swiper-container {
-        height: 400px;
+/*        height: 400px;*/
     }
     .swiper-slide img {
-        height: 800px;
+/*        height: 800px;*/
     }
     #reserve {
-        font-size: 20px;
-        height: 100px;
-        border-width: 0;
-        padding-right: 30px;
+        height: 150px;
+        border-width: 0 9px;
+    }
+    #reserve a {
+        font-size: 22px;
     }
 }
 @media screen and (max-width: 768px) {
@@ -140,8 +146,9 @@
         max-width: 250px;
     }
     .swiper-slide img {
-        height: 400px;
-        object-fit: cover;
+/*        height: 400px;*/
+        height: auto;
+/*        object-fit: cover;*/
     }
     
     /* 他ページヘッダー */

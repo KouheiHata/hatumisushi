@@ -50,7 +50,7 @@
     <section class="section section02">
         <div class="container">
             <div class="row">
-               <article class="fav-article row"><!-- サブループ -->
+               <article id="fav-article" class="fav-article row"><!-- サブループ -->
                   <?php
                 $args = array(
                 'post_type' => 'post',

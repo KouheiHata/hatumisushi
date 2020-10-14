@@ -54,10 +54,9 @@ wp_deregister_script('jquery');
                 </ul>
             </div>
             <?php elseif (is_page('information')): // 店舗情報トップ ?>
-            <div class="info-header"></div>
+            <img src="<?php echo esc_url(get_theme_file_uri('images/info-top.jpg')); ?>" alt="">
             <?php elseif (is_page('menu')): //お品書きトップ ?>
-            <div class="menu-header"></div>
-<!--            <img src="<?php echo esc_url(get_theme_file_uri('images/menu-top.jpg')); ?>" alt="寿司盛り合わせ" class="menu-top">-->
+            <img src="<?php echo esc_url(get_theme_file_uri('images/menu-top.jpg')); ?>" alt="寿司盛り合わせ">
             <?php elseif (is_page('event')): //会食や法事トップ ?>
             <div class="swiper-container">
                 <ul class="swiper-wrapper">
@@ -66,7 +65,7 @@ wp_deregister_script('jquery');
                 </ul>
             </div>
             <?php else: //その他 ?>
-            <div class="other-header"></div>
+            <img src="<?php echo esc_url(get_theme_file_uri('images/other1.jpg')); ?>" alt="">
             <?php endif; ?>
         </header>
 
@@ -81,7 +80,7 @@ wp_deregister_script('jquery');
                         </li>
                         <?php if(is_home() || is_front_page() ): //トップ ?>
                         <li class="nav-item">
-                            <a class="nav-link" href="<?php echo esc_url(home_url('/')); ?>">本日のおすすめ<span></span></a>
+                            <a class="nav-link" href="#fav-article">本日のおすすめ<span></span></a>
                         </li>
                         <?php else : //トップ以外?>
                         <li class="nav-item">
@@ -140,7 +139,7 @@ wp_deregister_script('jquery');
                         </ul>
                     </div>
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                        <a class="nav-logo" href="#">
+                        <a class="nav-logo" href="<?php echo esc_url(home_url('/')); ?>">
                             <img class="logo-lg" src="<?php echo esc_url(get_theme_file_uri('images/logo.png')); ?>" alt="ブランド">
                         </a>
                     </div>

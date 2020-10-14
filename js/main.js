@@ -14,6 +14,7 @@ $(function(){
             return false;
         });
     });
+
 // 予約ボタン
 $(function(){
     var reserve = $('#reserve');

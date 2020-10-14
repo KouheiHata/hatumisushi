@@ -66,7 +66,7 @@ wp_deregister_script('jquery');
                 </ul>
             </div>
             <?php else: //その他 ?>
-            <img src="<?php echo esc_url(get_theme_file_uri('images/other1.jpg')); ?>" alt="">
+            <div class="other-header"></div>
             <?php endif; ?>
         </header>
 

@@ -82,7 +82,7 @@ Template Name: お品書き
             <img src="<?php echo esc_url(get_theme_file_uri('images/nihonshu.jpg')); ?>" alt="">
         </div>
         <div class="grid-box8">
-            <div class="box-item box-item1 col2-box">
+            <div class="box-item box-item1 col2-md-box">
                 <h2 class="menu-title">通常メニュー</h2>
             </div>
             <div class="box-item box-item2">
@@ -137,9 +137,9 @@ Template Name: お品書き
             </div>
         </div><!-- grid-box8 end -->
         <div class="container-inner">
-            <h3 class="mt-5 pl-5">お料理をお子様向けにしてお出しすることもできます。<br>予約時にアレルギーのことなどお気軽にご相談ください。</h3>
-            <h2 class="mt-5 pl-5 font-weight-bold">注意</h2>
-            <ul class="pl-5 menu-caution">
+            <h3 class="mt-5 pl-sm-5">お料理をお子様向けにしてお出しすることもできます。<br>予約時にアレルギーのことなどお気軽にご相談ください。</h3>
+            <h2 class="mt-5 pl-sm-5 font-weight-bold">注意</h2>
+            <ul class="pl-sm-5 menu-caution">
                 <li>表示価格は全て税抜きです</li>
                 <li>市場からの新鮮な素材を使用しているため、その日によって違った素材が出ます</li>
             </ul>

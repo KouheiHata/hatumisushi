@@ -37,8 +37,31 @@
         font-size: 11px;
     }
 }
-@media screen and (max-width: 580px) {}
+@media screen and (max-width: 580px) {
+    .col2-sm-box {
+        grid-column-end: span 2;
+    }
+    .col3-sm-box {
+        grid-column-end: span 3;
+    }
+}
 
+@media screen and (min-width: 989px) {
+    .col2-lg-box {
+        grid-column-end: span 2;
+    }
+    .col3-lg-box {
+        grid-column-end: span 3;
+    }
+}
+@media screen and (min-width: 767px) {
+    .col2-md-box {
+        grid-column-end: span 2;
+    }
+    .col3-md-box {
+        grid-column-end: span 3;
+    }
+}
 
 /* -------------------------------------------------------------------------------- */
 /*	1. Font
@@ -76,6 +99,7 @@
     .swiper-container {
         height: 450px;
     }
+}
 @media screen and (max-width: 990px) {
     .header {
         height: 300px;
@@ -118,6 +142,13 @@
     .swiper-slide img {
         height: 400px;
         object-fit: cover;
+    }
+    
+    /* 他ページヘッダー */
+    .info-header,
+    .menu-header,
+    .other-header {
+        background-size: 180%;
     }
 }
 
@@ -246,8 +277,95 @@
 /* -------------------------------------------------------------------------------- */
 /*	13. Page
 /* -------------------------------------------------------------------------------- */
-@media screen and (min-width: 769px) { /*768pxより上のサイズに適用*/
+@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 990px) {
     /* お品書き */
+    .menu-title {
+        text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
+    }
+    
+    .grid-box8 {
+        width: 90%;
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+    .grid-box8 .box-item:nth-of-type(even) {
+        width: 300px;
+        height: 120px;
+    }
+    /* 法事など */
+    .event::after {
+        bottom: 15px;
+    }
+    
+    .circle1 {
+        background-position: top 20px left 0;
+    }
+    .circle2 {
+        background-position: top 60px left 0;
+    }
+    .circle3 {
+        background-position: left 0;
+    }
+    .grid-box5 {
+        grid-row-gap: 15px;
+        grid-column-gap: 15px;
+    }
+}
+@media screen and (max-width: 768px) {}
+@media screen and (max-width: 580px) {
+    /* お品書き */
+    .menu-title {
+        font-size: 44px;
+    }
+    
+    .grid-box8 {
+        grid-template-columns: 1fr;
+        grid-row-gap: 20px;
+    }
+    .grid-box8 .box-item {
+        width: 300px;
+        height: 120px;
+    }
+    .grid-box8 .box-item img {
+        object-fit: cover;
+    }
+    /* 法事など */
+    .event {
+        width: 50%;
+    }
+    
+    .grid-box5 {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+    }
+    
+    .grid-box5 .box-item:not(first-of-type) {
+        text-align: left;
+    }
+    
+    .grid-box5 .box-item:first-of-type {
+        order: 1;
+    }
+    .grid-box5 .box-item:nth-of-type(2) {
+        order: 2;
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+    .grid-box5 .box-item:nth-of-type(3) {
+        order: 3;
+    }
+    .grid-box5 .box-item:nth-of-type(4) {
+        order: 4;
+    }
+    .grid-box5 .box-item:nth-of-type(5) {
+        order: 5;
+    }
+}
+@media screen and (min-width: 1024px) {}
+@media screen and (min-width: 989px) {}
+@media screen and (min-width: 767px) { /*768pxより上のサイズに適用*/
+    
     .grid-box8 .box-item4 {
         order: 5;
     }

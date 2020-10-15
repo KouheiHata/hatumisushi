@@ -83,9 +83,6 @@
 /* -------------------------------------------------------------------------------- */
 
 @media screen and (max-width: 1024px) {
-    .header {
-/*        height: 450px;*/
-    }
     
     .slide-heading {
         max-width: 800px;
@@ -96,9 +93,6 @@
         max-width: 500px;
     }
     
-    .swiper-container {
-/*        height: 450px;*/
-    }
 }
 @media screen and (max-width: 990px) {
     .header {
@@ -117,12 +111,6 @@
     .slide-heading img {
         max-width: 400px;
     }
-    .swiper-container {
-/*        height: 400px;*/
-    }
-    .swiper-slide img {
-/*        height: 800px;*/
-    }
     #reserve {
         height: 150px;
         border-width: 0 9px;
@@ -139,16 +127,14 @@
     }
     .slide-heading {
         max-width: 500px;
-        top: 150px;
+        top: 100px;
         right: 60px;
     }
     .slide-heading img {
         max-width: 250px;
     }
     .swiper-slide img {
-/*        height: 400px;*/
         height: auto;
-/*        object-fit: cover;*/
     }
     
     /* 他ページヘッダー */
@@ -291,6 +277,47 @@
         text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
     }
     
+    .grid-box6 {
+        grid-template-columns: repeat(4, minmax(100px, 150px));
+        grid-template-rows: repeat(4, minmax(200px, 300px));
+    }
+    
+    .grid-box6 .box-item1 img {
+        position: static;
+    }
+    
+    .grid-box6 .box-item4 {
+        position: static;
+    }
+    .grid-box6 .box-item6 {
+        grid-row-start: 3;
+        grid-row-end: 4;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .grid-box6 .box-item7 {
+        grid-row-start: 3;
+        grid-row-end: 4;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    .grid-box6 .box-item8 {
+        grid-row-start: 3;
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+    .grid-box6 .box-item8 img {
+        position: static;
+    }
+    .grid-box6 .box-item9 {
+        g
+    }
+    
+    .menu-description {
+        grid-column-end: span 2;
+        grid-row-start: 2;
+        grid-row-end: span 2;
+    }
     .grid-box8 {
         width: 90%;
         grid-template-columns: repeat(2, 1fr);

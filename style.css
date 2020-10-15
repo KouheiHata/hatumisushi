@@ -395,31 +395,8 @@ section {
     color: #ffffff;
     height: auto;
 }
-
-.info-header {
-    width: 100%;
-    height: 100%;
+.header-img {
     filter: brightness(80%);
-    background-image: url("images/info-top.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.menu-header {
-    width: 100%;
-    height: 100%;
-    filter: brightness(80%);
-    background-image: url(images/menu-top.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-}
-.other-header {
-    width: 100%;
-    height: 100%;
-    filter: brightness(80%);
-    background-image: url(images/other1.jpg);
-    background-size: cover;
-    background-attachment: fixed;
 }
 
 /* スライドショー部分 */
@@ -811,35 +788,35 @@ section {
     grid-template-rows: repeat(4, 1fr);
 }
 
-.grid-box6 .box-item:first-of-type img {
+.grid-box6 .box-item1 img {
     position: relative;
     top: 6rem;
     left: 25%;
 }
 
 
-.grid-box6 .box-item:nth-of-type(2){
+.grid-box6 .box-item2{
     z-index: 2;
 }
-.grid-box6 .box-item:nth-of-type(4) {
+.grid-box6 .box-item4 {
     position: relative;
     top: 2rem;
 }
-.grid-box6 .box-item:nth-of-type(6) {
+.grid-box6 .box-item6 {
     grid-row-start: 3;
     grid-row-end:4;
 }
-.grid-box6 .box-item:nth-of-type(8) {
+.grid-box6 .box-item8 {
     grid-column-start: 4;
     grid-column-end: 5;
 }
-.grid-box6 .box-item:nth-of-type(8) img {
+.grid-box6 .box-item8 img {
     position: relative;
     bottom: 5rem;
     right: 35%;
 }
 
-.grid-box6 .box-item:nth-of-type(9) {
+.grid-box6 .box-item9 {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 4;
@@ -847,26 +824,26 @@ section {
     z-index: 4;
 }
 
-.grid-box6 .box-item:nth-of-type(10) {
+.grid-box6 .box-item10 {
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 4;
     grid-row-end: 5;
     z-index: 3;
 }
-.grid-box6 .box-item:nth-of-type(10) img {
+.grid-box6 .box-item10 img {
     position: relative;
     top: 2rem;
     right: 35%;
 }
-.grid-box6 .box-item:nth-of-type(11) {
+.grid-box6 .box-item11 {
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 4;
     grid-row-end: 5;
     z-index: 2;
 }
-.grid-box6 .box-item:nth-of-type(11) img {
+.grid-box6 .box-item11 img {
     position: relative;
     left: 15%;
 }

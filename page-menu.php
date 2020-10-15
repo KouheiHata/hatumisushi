@@ -11,38 +11,38 @@ Template Name: お品書き
 <main id="main" class="main menu-back">
     <div class="container">
         <div class="grid-box6">
-            <div class="box-item">
+            <div class="box-item box-item1">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/sasimi1.jpg')); ?>" alt="鱧">
             </div>
-            <div class="box-item">
+            <div class="box-item box-item2">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/conger.jpg')); ?>" alt="" width="207">
             </div>
-            <div class="box-item">
+            <div class="box-item box-item3">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/rolls-sushi.jpg')); ?>" alt="">
             </div>
-            <div class="box-item">
+            <div class="box-item box-item4">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/rolls-sea.jpg')); ?>" alt="">
             </div>
-            <div class="box-item menu-description1">
+            <div class="box-item box-item5 menu-description1">
                 <h2 class="menu-title">季節料理</h2>
                 <p class="menu-p">夏は鱧料理、<br>冬は越前蟹はもちろん、河豚やすっぽんなどの鍋料理があります。<br>お正月の御節料理、２月の節分の恵方巻寿司、７月の土用の丑の日の鰻など、一年通して多彩なお料理もあります。<br>※要予約</p>
             </div>
-            <div class="box-item">
+            <div class="box-item box-item6">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/crab1.jpg')); ?>" alt="">
             </div>
-            <div class="box-item row2-box">
+            <div class="box-item box-item7 row2-md-box">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/osechi1.jpg')); ?>" alt="">
             </div>
-            <div class="box-item">
+            <div class="box-item box-item8">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/crab2.jpg')); ?>" alt="">
             </div>
-            <div class="box-item">
+            <div class="box-item box-item9">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/crab4.jpg')); ?>" alt="">
             </div>
-            <div class="box-item">
+            <div class="box-item box-item10">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/crab5.jpg')); ?>" alt="">
             </div>
-            <div class="box-item">
+            <div class="box-item box-item11">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/crab3.jpg')); ?>" alt="">
             </div>
         </div><!-- grid-box6 end -->

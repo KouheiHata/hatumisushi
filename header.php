@@ -54,9 +54,9 @@ wp_deregister_script('jquery');
                 </ul>
             </div>
             <?php elseif (is_page('information')): // 店舗情報トップ ?>
-            <img src="<?php echo esc_url(get_theme_file_uri('images/info-top.jpg')); ?>" alt="">
+            <img src="<?php echo esc_url(get_theme_file_uri('images/info-top.jpg')); ?>" alt="" class="header-img">
             <?php elseif (is_page('menu')): //お品書きトップ ?>
-            <img src="<?php echo esc_url(get_theme_file_uri('images/menu-top.jpg')); ?>" alt="寿司盛り合わせ">
+            <img src="<?php echo esc_url(get_theme_file_uri('images/menu-top.jpg')); ?>" alt="寿司盛り合わせ" class="header-img">
             <?php elseif (is_page('event')): //会食や法事トップ ?>
             <div class="swiper-container">
                 <ul class="swiper-wrapper">

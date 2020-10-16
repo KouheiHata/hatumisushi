@@ -132,7 +132,7 @@
                     </div>
                 </div>
                 <div class="col-12">
-                    <button class="button-square centering"><a href="#">会食や法事などを<br>より詳しく<i class="fas fa-angle-double-right pl-3"></i></a></button>
+                    <button class="button-square centering"><a href="<?php echo esc_url(home_url('event')); ?>">会食や法事などを<br>より詳しく<i class="fas fa-angle-double-right pl-3"></i></a></button>
                 </div>
             </div><!-- row end -->
         </div><!-- container end -->

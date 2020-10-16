@@ -9,6 +9,10 @@
                 <?php the_title(); ?>
             </a>
         </h3>
+        <div class="article-image">
+               <?php echo the_post_thumbnail('medium'); ?>
+        </div>
+        <div class="clear"></div>
         <?php  the_excerpt(); ?>
 
     </article>

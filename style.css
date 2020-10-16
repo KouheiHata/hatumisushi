@@ -747,11 +747,16 @@ section {
     text-decoration: none;
 }
 .blog-content p {
+    margin-top: 1em;
     padding-left: 0.5em;
 }
 
 .blog-content:last-child {
     margin-bottom: 5rem;
+}
+.article-image {
+    margin-left: 0.5em;
+    float: left;
 }
 .screen-reader-text {
     display: none;

@@ -631,10 +631,15 @@ section {
 }
 
 /* 本日のおすすめ */
+.section02 {
+    padding-top: 80px;
+}
 .fav-article {
     width: 1000px;
     margin: 0 auto;
-    border: 1px solid #707070;
+    padding-top: 80px;
+    margin-top: -80px;
+/*    border: 1px solid #707070;*/
 }
 
 .grid-box2 {
@@ -720,6 +725,46 @@ section {
 /* -------------------------------------------------------------------------------- */
 /*	9.	Archive Page
 /* -------------------------------------------------------------------------------- */
+
+.blog-content {
+    margin-top: 5rem;
+    max-width: 800px;
+    word-break: keep-all;
+}
+
+.blog-content h3 {
+    color: #ffffff;
+    max-width: 800px;
+    padding-left: 0.5em;
+    background-color: #333333;
+    margin-bottom: 3rem;
+}
+
+.blog-content h3 a {
+    color: #ffffff;
+}
+.blog-content h3 a:hover {
+    text-decoration: none;
+}
+.blog-content p {
+    padding-left: 0.5em;
+}
+
+.blog-content:last-child {
+    margin-bottom: 5rem;
+}
+.screen-reader-text {
+    display: none;
+}
+.current {
+    color: #d65050;
+}
+.page-numbers {
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid #333333;
+    padding: 10px;
+}
 
 
 /* -------------------------------------------------------------------------------- */

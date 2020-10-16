@@ -273,51 +273,84 @@
 @media screen and (max-width: 1024px) {}
 @media screen and (max-width: 990px) {
     /* お品書き */
+    .menu-back {
+        background-position: left 50px;
+    }
     .menu-title {
         text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
     }
     
     .grid-box6 {
+        width: 700px;
+        margin: 0 auto;
         grid-template-columns: repeat(4, minmax(100px, 150px));
-        grid-template-rows: repeat(4, minmax(200px, 300px));
+        grid-template-rows: repeat(5, 200px);
+        grid-gap: 15px;
     }
-    
-    .grid-box6 .box-item1 img {
+    .grid-box6 .box-item {
+        position: static;
+    }
+    .grid-box6 .box-item img{
         position: static;
     }
     
-    .grid-box6 .box-item4 {
-        position: static;
-    }
     .grid-box6 .box-item6 {
-        grid-row-start: 3;
-        grid-row-end: 4;
+        grid-row-start: 4;
+        grid-row-end: 5;
         grid-column-start: 1;
         grid-column-end: 2;
     }
     .grid-box6 .box-item7 {
-        grid-row-start: 3;
-        grid-row-end: 4;
+        grid-row-start: 4;
+        grid-row-end: 5;
         grid-column-start: 2;
         grid-column-end: 3;
     }
     .grid-box6 .box-item8 {
-        grid-row-start: 3;
+        grid-row-start: 4;
+        grid-row-end: 5;
         grid-column-start: 3;
         grid-column-end: 4;
     }
-    .grid-box6 .box-item8 img {
-        position: static;
-    }
+    
     .grid-box6 .box-item9 {
-        g
+        grid-row-start: 4;
+        grid-row-end: 5;
+        grid-column-start: 4;
+        grid-column-end: 5;
+    }
+    .grid-box6 .box-item10 {
+        grid-row-start: 5;
+        grid-row-end: 6;
+        grid-column-start: 1;
+        grid-column-end: 2;
     }
     
-    .menu-description {
-        grid-column-end: span 2;
-        grid-row-start: 2;
-        grid-row-end: span 2;
+    .grid-box6 .box-item11 {
+        grid-row-start: 5;
+        grid-row-end: 6;
+        grid-column-start: 2;
+        grid-column-end: 3;
     }
+    
+    .menu-description1 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        z-index: 3;
+    }
+    .menu-description1 br {
+        display: none;
+    }
+    
+    .grid-box7 {
+        grid-gap: 15px;
+    }
+    .grid-box7 .box-item {
+        position: static;
+    }
+    
     .grid-box8 {
         width: 90%;
         grid-template-columns: repeat(2, 1fr);
@@ -351,6 +384,59 @@
     /* お品書き */
     .menu-title {
         font-size: 44px;
+    }
+    
+    .grid-box6 {
+        max-width: 350px;
+        grid-template-columns: repeat(3 , 100px);
+        grid-template-rows: repeat(8, 150px);
+        grid-gap: 5px;
+    }
+    
+    .grid-box6 .box-item4 {
+        grid-column-start: 1;
+        grid-row-start: 6;
+    }
+    .grid-box6 .box-item6 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 6;
+        grid-row-end: 7;
+    }
+    .grid-box6 .box-item7 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 6;
+        grid-row-end: 7;
+    }
+    .grid-box6 .box-item8 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 7;
+        grid-row-end: 8;
+    }
+    .grid-box6 .box-item9 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 7;
+        grid-row-end: 8;
+    }
+    .grid-box6 .box-item10 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 7;
+        grid-row-end: 8;
+    }
+    .grid-box6 .box-item11 {
+        grid-row-start: 8;
+        grid-row-end: 9;
+        
+    }
+    .menu-description1 {
+        grid-column: span 3;
+    }
+    .menu-p {
+        word-break: normal;
     }
     
     .grid-box8 {

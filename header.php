@@ -38,7 +38,7 @@ wp_deregister_script('jquery');
         <!-- wrapper start ▼ -->
         <header id="header" class="header">
             <h1 class="slide-heading">
-                <img src="<?php echo esc_url(get_theme_file_uri('images/header-main.svg')); ?>" alt="">
+                <img src="<?php echo esc_url(get_theme_file_uri('images/header-main.svg')); ?>" alt="初味寿司　本店">
             </h1>
             <?php if ( is_home() || is_front_page() ): //トップページ ?>
             <!-- スライダーのコンテナ部分 -->

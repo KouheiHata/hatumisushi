@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 
 <div class="container">
+   <?php the_archive_title('<h1 class="mt-5">', '</h1>'); ?>
     <?php if (have_posts()): while (have_posts()): the_post(); ?>
     <div class="blog-content">
     <article <?php post_class(); ?>>
@@ -14,8 +15,11 @@
         </div>
         <div class="clear"></div>
         <?php  the_excerpt(); ?>
-
     </article>
+    <footer class="blog-article-footer">
+            <span class="category"><?php the_category('&nbsp;'); ?></span>
+        <span class="tags"><?php the_tags('&nbsp;'); ?></span>
+        </footer>
     </div>
     <?php endwhile; ?>
     <?php the_posts_pagination(); ?>

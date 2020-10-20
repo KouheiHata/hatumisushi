@@ -13,7 +13,7 @@ Template Name: 店舗情報
         <div class="container">
             <div class="row">
                 <h2 class="col-12">営業時間</h2>
-                <p class="col-12 mb-5">１１：００～１４：００</p>
+                <p class="col-12 mb-5">１１：００～１４：００　１７：００～２３：００</p>
                 <h2 class="col-12">定休日</h2>
                 <p class="col-12 mb-5">毎週日曜（法事など特別な予約にはご相談承ります）</p>
                 <h2 class="col-12 mb-3">部屋数、座席数</h2>

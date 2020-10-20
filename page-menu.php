@@ -25,7 +25,7 @@ Template Name: お品書き
             </div>
             <div class="box-item box-item5 menu-description1">
                 <h2 class="menu-title">季節料理</h2>
-                <p class="menu-p">夏は鱧料理、<br>冬は越前蟹はもちろん、河豚やすっぽんなどの鍋料理があります。<br>お正月の御節料理、２月の節分の恵方巻寿司、７月の土用の丑の日の鰻など、一年通して多彩なお料理もあります。<br>※要予約</p>
+                <p class="menu-p">夏は鱧料理、<br class="d-none d-lg-block">冬は越前蟹はもちろん、河豚やすっぽんなどの<br class="d-md-none">鍋料理があります。<br class="d-none d-lg-block">お正月の御節料理、２月の節分の恵方巻寿司、７月の土用の丑の日の鰻<br class="d-md-none">など、一年通して多彩なお料理もあります。※要予約</p>
             </div>
             <div class="box-item box-item6">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/crab1.jpg')); ?>" alt="">
@@ -46,6 +46,7 @@ Template Name: お品書き
                 <img src="<?php echo esc_url(get_theme_file_uri('images/crab3.jpg')); ?>" alt="">
             </div>
         </div><!-- grid-box6 end -->
+        <img src="<?php echo esc_url(get_theme_file_uri('images/menu1.png')); ?>" alt="">
         <div class="grid-box7">
             <div class="box-item box-item1">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/tamago1.jpg')); ?>" alt="">
@@ -61,7 +62,7 @@ Template Name: お品書き
             </div>
             <div class="box-item box-item5 menu-description2">
                 <h2 class="menu-title">一品料理</h2>
-                <p class="menu-p">地元市場で仕入れた魚などの食材を<br>使ったお料理が楽しめます。</p>
+                <p class="menu-p">地元市場で仕入れた魚などの食材を<br class="d-none d-lg-block">使ったお料理が楽しめます。</p>
             </div>
             <div class="box-item box-item6">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/sirako.jpg')); ?>" alt="">
@@ -77,7 +78,7 @@ Template Name: お品書き
             </div>
         </div><!-- grid-box7 end -->
         <h2 class="menu-title">福井の地酒</h2>
-        <p class="menu-p">春のフレッシュな「しぼりたて」<br>夏の「生酒」<br>秋の「ひやおろし」など<br>季節によって美味しいお酒をご用意しております。</p>
+        <p class="menu-p">春のフレッシュな「しぼりたて」<br>夏の「生酒」<br>秋の「ひやおろし」など<br class="d-none d-lg-block">季節によって美味しい<br class="d-md-none">お酒をご用意しております。</p>
         <div class="text-center mt-5">
             <img src="<?php echo esc_url(get_theme_file_uri('images/nihonshu.jpg')); ?>" alt="">
         </div>

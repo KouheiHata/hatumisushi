@@ -345,7 +345,7 @@
         z-index: 3;
     }
     .menu-description1 br {
-        display: none;
+/*        display: none;*/
     }
     
     .grid-box7 {
@@ -358,6 +358,7 @@
     .grid-box8 {
         width: 90%;
         grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 15px;
         
     }
     .grid-box8 .box-item:nth-of-type(even) {
@@ -440,7 +441,7 @@
         grid-column: span 3;
     }
     .menu-p {
-        word-break: normal;
+        word-break: keep-all;
     }
     
     .grid-box8 {

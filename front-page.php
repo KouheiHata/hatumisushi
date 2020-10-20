@@ -11,7 +11,7 @@
                 </h2>
                 <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
                     <img src="<?php echo esc_url(get_theme_file_uri('images/shop-gate1.jpg')); ?>" alt="" width="580">
-                    <p class="mt-3 mb-5">昭和３９年創業「初味寿司」の、玄関をあけてアプローチを進んでいくと、江戸の寿司屋の屋台を模した<ruby>庇<rt>ひさし</rt></ruby>があるカウンターがお出迎えします。</p>
+                    <p class="mt-3 mb-5">昭和３９年創業「初味寿司」の、玄関をあけてアプローチを進んでいくと、江戸の寿司屋の屋台を模した庇（ひさし）があるカウンターがお出迎えします。</p>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                     <img src="<?php echo esc_url(get_theme_file_uri('images/shop-gate2.jpg')); ?>" alt="" width="360">

@@ -842,8 +842,7 @@ section {
 }
 
 .grid-box6 {
-    display: -ms-grid;
-    display: grid;
+    display: none;
     padding-top: 90px;
     text-align: center;
     grid-template-columns: repeat(4, 1fr);
@@ -932,8 +931,7 @@ section {
 }
 
 .grid-box7 {
-    display: -ms-grid;
-    display: grid;
+    display: none;
     padding-top: 200px;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -1036,6 +1034,31 @@ section {
 .inf-btn {
     margin-top: 100px;
     margin-bottom: 100px;
+}
+
+.menu-description3 {
+    height: 900px;
+    background-image: url(images/menu2.png);
+    background-position: center center;
+}
+
+.menu-description3 h2,
+.menu-description3 p {
+    position: relative;
+    top: 200px;
+}
+
+.menu-description4 {
+    height: 900px;
+    background-image: url("images/menu1.png");
+    background-size: cover;
+    background-position: top;
+}
+
+.menu-description4 h2,
+.menu-description4 p {
+    position: relative;
+    top: 300px;
 }
 
 /* 店舗情報 */

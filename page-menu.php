@@ -10,6 +10,10 @@ Template Name: お品書き
 
 <main id="main" class="main menu-back">
     <div class="container">
+        <div class="menu-description3">
+            <h2 class="menu-title">季節料理</h2>
+            <p class="menu-p">夏は鱧料理、冬は越前蟹はもちろん、<br>河豚やすっぽんなどの鍋料理があります。<br>お正月の御節料理、２月の節分の恵方巻寿司、<br>７月の土用の丑の日の鰻など、<br>一年通して多彩なお料理もあります。<br>※要予約</p>
+        </div>
         <div class="grid-box6">
             <div class="box-item box-item1">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/sasimi1.jpg')); ?>" alt="鱧">
@@ -46,6 +50,10 @@ Template Name: お品書き
                 <img src="<?php echo esc_url(get_theme_file_uri('images/crab3.jpg')); ?>" alt="">
             </div>
         </div><!-- grid-box6 end -->
+        <div class="menu-description4">
+            <h2 class="menu-title">一品料理</h2>
+            <p class="menu-p">地元市場で仕入れた魚などの食材を<br>使ったお料理が楽しめます。</p>
+        </div>
         <div class="grid-box7">
             <div class="box-item box-item1">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/tamago1.jpg')); ?>" alt="">
@@ -101,10 +109,10 @@ Template Name: お品書き
                 <p class="">イクラとウニが入った、豪華な握り。</p>
             </div>
             <div class="box-item box-item5">
-               <a data-fancybox="menu-gallery" href="<?php echo esc_url(get_theme_file_uri('images/nigiri2-2.jpg')); ?>">
-                   <img src="<?php echo esc_url(get_theme_file_uri('images/nigiri2.jpg')); ?>" alt="">
-               </a>
-                
+                <a data-fancybox="menu-gallery" href="<?php echo esc_url(get_theme_file_uri('images/nigiri2-2.jpg')); ?>">
+                    <img src="<?php echo esc_url(get_theme_file_uri('images/nigiri2.jpg')); ?>" alt="">
+                </a>
+
             </div>
             <div class="box-item box-item6">
                 <h3 class="">特上にぎり<br>3,500円</h3>
@@ -112,28 +120,28 @@ Template Name: お品書き
                 <p class="">トロとイクラ、ウニが入った、至福の握り</p>
             </div>
             <div class="box-item box-item7">
-               <a href="<?php echo esc_url(get_theme_file_uri('images/nigiri3-2.jpg')); ?>" data-fancybox="menu-gallery">
-                   <img src="<?php echo esc_url(get_theme_file_uri('images/nigiri3.jpg')); ?>" alt="">
-               </a>
+                <a href="<?php echo esc_url(get_theme_file_uri('images/nigiri3-2.jpg')); ?>" data-fancybox="menu-gallery">
+                    <img src="<?php echo esc_url(get_theme_file_uri('images/nigiri3.jpg')); ?>" alt="">
+                </a>
             </div>
             <div class="box-item box-item8">
                 <h3 class="">ちらし<br>1,800円</h3>
                 <p class="">季節のネタがぎっしりと入った、ちらし寿司はどこから食べようか迷うほど</p>
             </div>
             <div class="box-item box-item9">
-               <a href="<?php echo esc_url(get_theme_file_uri('images/chirashi-2.jpg')); ?>" data-fancybox="menu-gallery">
-                   <img src="<?php echo esc_url(get_theme_file_uri('images/chirashi.jpg')); ?>" alt="">
-               </a>
+                <a href="<?php echo esc_url(get_theme_file_uri('images/chirashi-2.jpg')); ?>" data-fancybox="menu-gallery">
+                    <img src="<?php echo esc_url(get_theme_file_uri('images/chirashi.jpg')); ?>" alt="">
+                </a>
             </div>
             <div class="box-item box-item10">
                 <h3 class="">特巻<br>3,500円</h3>
                 <p class="">８種類のネタが入った、迫力の巻き寿司。</p>
             </div>
             <div class="box-item box-item11">
-               <a href="<?php echo esc_url(get_theme_file_uri('images/futomaki-2.jpg')); ?>" data-fancybox="menu-gallery">
-                   <img src="<?php echo esc_url(get_theme_file_uri('images/futomaki.jpg')); ?>" alt="">
-               </a>
-                
+                <a href="<?php echo esc_url(get_theme_file_uri('images/futomaki-2.jpg')); ?>" data-fancybox="menu-gallery">
+                    <img src="<?php echo esc_url(get_theme_file_uri('images/futomaki.jpg')); ?>" alt="">
+                </a>
+
             </div>
         </div><!-- grid-box8 end -->
         <div class="container-inner">

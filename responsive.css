@@ -347,9 +347,6 @@
         grid-row-end: 4;
         z-index: 3;
     }
-    .menu-description1 br {
-/*        display: none;*/
-    }
     
     .grid-box7 {
         grid-gap: 15px;
@@ -368,6 +365,7 @@
         width: 300px;
         height: 120px;
     }
+    
     /* 法事など */
     .event::after {
         bottom: 15px;
@@ -395,6 +393,8 @@
     }
     
     .grid-box6 {
+        display: -ms-grid;
+        display: grid;
         max-width: 350px;
         grid-template-columns: repeat(3 , 100px);
         grid-template-rows: repeat(6, 150px);
@@ -438,8 +438,12 @@
     .grid-box6 .box-item11 {
         grid-row-start: 6;
         grid-row-end: 7;
-        
     }
+    .grid-box7 {
+        display: -ms-grid;
+        display: grid;
+    }
+    
     .menu-description1 {
         grid-column: span 3;
     }
@@ -459,6 +463,16 @@
     .grid-box8 .box-item img {
         object-fit: cover;
     }
+    
+    .menu-description3 {
+        display: none;
+        height: 300px;
+    }
+    
+    .menu-description4 {
+        display: none;
+    }
+    
     /* 法事など */
     .event {
         width: 50%;

@@ -21,7 +21,7 @@
                 </div>
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                     <div class="container-inner">
-                        <p class="mt-3 mb-5">カウンターは黒御影石。床はこだわりの笏谷石。<br>そして５ｍを超える一枚ガラスのネタケースの中は、地元市場仕入れた旬の魚たちが並んでいます。</p>
+                        <p class="mt-3 mb-5">カウンターは黒御影石。床はこだわりの笏谷石。そして５ｍを超える一枚ガラスのネタケースの中は、地元市場仕入れた旬の魚たちが並んでいます。</p>
                     </div>
                 </div>
                 <div class="grid-box1">

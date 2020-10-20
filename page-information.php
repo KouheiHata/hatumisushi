@@ -47,7 +47,7 @@ Template Name: 店舗情報
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
                     <h2 class="">ご予約</h2>
                     <p class="mb-3">TEL:0776-36-7017</p>
-                    <button class="button-square"><a href="#">予約サイト<i class="fas fa-angle-double-right pl-3"></i></a></button>
+                    <button class="button-square"><a href="https://airrsv.net/hatumisushi/calendar" target="_blank">予約サイト<i class="fas fa-angle-double-right pl-3"></i></a></button>
                     <p class="mt-3">※予約サイトで仮予約後、こちらからお電話して確定となります。</p>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">

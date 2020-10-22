@@ -92,6 +92,14 @@
     .slide-heading img {
         max-width: 500px;
     }
+    .title-heading {
+        max-width: 800px;
+        top: 150px;
+        right: 120px;
+    }
+    .title-heading img {
+        max-width: 500px;
+    }
     .video-filter {
         height: 610px;
     }
@@ -101,11 +109,7 @@
     .header {
         height: auto;
     }
-    .info-header,
-    .menu-header,
-    .other-header {
-        background-size: 100%;
-    }
+    
     .slide-heading {
         max-width: 500px;
         top: 100px;
@@ -114,6 +118,16 @@
     .slide-heading img {
         max-width: 400px;
     }
+    
+    .title-heading {
+        max-width: 500px;
+        top: 100px;
+        right: 100px
+    }
+    .title-heading img {
+        max-width: 400px;
+    }
+    
     .video-filter {
         height: 480px;
     }
@@ -137,6 +151,14 @@
         right: 60px;
     }
     .slide-heading img {
+        max-width: 250px;
+    }
+    .title-heading {
+        max-width: 500px;
+        top: 100px;
+        right: 60px;
+    }
+    .title-heading img {
         max-width: 250px;
     }
     .swiper-slide img {

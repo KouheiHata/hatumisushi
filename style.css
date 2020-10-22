@@ -306,6 +306,7 @@ section {
     grid-row-end: span 3;
 }
 
+
 /* -------------------------------------------------------------------------------- */
 /*	2.	Font
 /* -------------------------------------------------------------------------------- */
@@ -402,14 +403,26 @@ section {
 /* スライドショー部分 */
 
 .slide-heading {
+    display: none;
     max-width: 1500px;
     position: absolute;
     top: 180px;
     right: 150px;
-    z-index: 2;
+    z-index: 3;
+}
+.title-heading {
+    max-width: 1500px;
+    position: absolute;
+    top: 180px;
+    right: 150px;
+    z-index: 3;
 }
 
 .slide-heading img {
+    width: 800px;
+}
+
+.title-heading img {
     width: 800px;
 }
 
@@ -427,7 +440,20 @@ section {
     max-width: 100%;
     filter: brightness(80%);
 }
-
+.video-wrapper {
+    margin-bottom: -50px;
+}
+.video-filter {
+    width: 100%;
+    height: 890px;
+    background: url(images/pattern.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.video-wrapper video {
+    width: 100%;
+}
 /* -------------------------------------------------------------------------------- */
 /*	6.	Menu Navigation
 /* -------------------------------------------------------------------------------- */

@@ -92,6 +92,9 @@
     .slide-heading img {
         max-width: 500px;
     }
+    .video-filter {
+        height: 610px;
+    }
     
 }
 @media screen and (max-width: 990px) {
@@ -110,6 +113,9 @@
     }
     .slide-heading img {
         max-width: 400px;
+    }
+    .video-filter {
+        height: 480px;
     }
     #reserve {
         height: 150px;
@@ -136,12 +142,9 @@
     .swiper-slide img {
         height: auto;
     }
-    
-    /* 他ページヘッダー */
-    .info-header,
-    .menu-header,
-    .other-header {
-        background-size: 180%;
+    .video-filter {
+        height: 260px;
+    }
     }
 }
 

@@ -37,27 +37,42 @@ wp_deregister_script('jquery');
     <div class="wrapper">
         <!-- wrapper start ▼ -->
         <header id="header" class="header">
+            <?php if ( is_home() || is_front_page() ): //トップページ ?>
             <h1 class="slide-heading">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/header-main.svg')); ?>" alt="初味寿司　本店">
             </h1>
-            <?php if ( is_home() || is_front_page() ): //トップページ ?>
-            <!-- スライダーのコンテナ部分 -->
-            <div class="swiper-container">
-                <!-- スライダーのラッパー部分 -->
-                <ul class="swiper-wrapper">
-                    <!-- スライダー本体 -->
-                    <li class="swiper-slide"><img src="<?php echo esc_url(get_theme_file_uri('images/slide01.jpg')); ?>"
-                    alt=""></li>
-                    <li class="swiper-slide"><img src="<?php echo esc_url(get_theme_file_uri('images/slide02.jpg')); ?>" alt=""></li>
-                    <li class="swiper-slide"><img src="<?php echo esc_url(get_theme_file_uri('images/slide03.jpg')); ?>" alt=""></li>
-                    <li class="swiper-slide"><img src="<?php echo esc_url(get_theme_file_uri('images/slide04.jpg')); ?>" alt=""></li>
-                </ul>
+            <div class="video-wrapper">
+               <div class="video-filter"></div>
+                <video src="<?php echo get_template_directory_uri(); ?>/images/hatumi-video2.mp4" autoplay loop muted>
+                    <img src="<?php echo esc_url(get_theme_file_uri('images/slide01.jpg')); ?>" alt="placeholder">
+                </video>
             </div>
+            <!-- スライダーのコンテナ部分 -->
+<!--            <div class="swiper-container">-->
+                <!-- スライダーのラッパー部分 -->
+<!--                <ul class="swiper-wrapper">-->
+                    <!-- スライダー本体 -->
+<!--                    <li class="swiper-slide"><img src="<?php echo esc_url(get_theme_file_uri('images/slide01.jpg')); ?>"-->
+                    alt=""></li>
+<!--                    <li class="swiper-slide"><img src="<?php echo esc_url(get_theme_file_uri('images/slide02.jpg')); ?>" alt=""></li>-->
+<!--                    <li class="swiper-slide"><img src="<?php echo esc_url(get_theme_file_uri('images/slide03.jpg')); ?>" alt=""></li>-->
+<!--                    <li class="swiper-slide"><img src="<?php echo esc_url(get_theme_file_uri('images/slide04.jpg')); ?>" alt=""></li>-->
+<!--                </ul>-->
+<!--            </div>-->
             <?php elseif (is_page('information')): // 店舗情報トップ ?>
+            <h1 class="title-heading">
+                <img src="<?php echo esc_url(get_theme_file_uri('images/header-main.svg')); ?>" alt="初味寿司　本店">
+            </h1>
             <img src="<?php echo esc_url(get_theme_file_uri('images/info-top.jpg')); ?>" alt="" class="header-img">
             <?php elseif (is_page('menu')): //お品書きトップ ?>
+            <h1 class="title-heading">
+                <img src="<?php echo esc_url(get_theme_file_uri('images/header-main.svg')); ?>" alt="初味寿司　本店">
+            </h1>
             <img src="<?php echo esc_url(get_theme_file_uri('images/menu-top.jpg')); ?>" alt="寿司盛り合わせ" class="header-img">
             <?php elseif (is_page('event')): //会食や法事トップ ?>
+            <h1 class="title-heading">
+                <img src="<?php echo esc_url(get_theme_file_uri('images/header-main.svg')); ?>" alt="初味寿司　本店">
+            </h1>
             <div class="swiper-container">
                 <ul class="swiper-wrapper">
                     <li class="swiper-slide"><img src="<?php echo esc_url(get_theme_file_uri('images/event-top1.jpg')); ?>" alt=""></li>

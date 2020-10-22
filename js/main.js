@@ -1,3 +1,6 @@
+// タイトル遅延表示＆フェード
+$('.slide-heading').delay(37000/* ここで遅延設定 */).fadeIn(3000);
+
 //トップへ戻るボタン
 $(function(){
         var pageTop = $('#page_top');

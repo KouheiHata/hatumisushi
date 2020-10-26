@@ -17,8 +17,8 @@
         <?php  the_excerpt(); ?>
     </article>
     <footer class="blog-article-footer">
-            <span class="category"><?php the_category('&nbsp;'); ?></span>
-        <span class="tags"><?php the_tags('&nbsp;'); ?></span>
+<!--            <span class="category"><?php the_category('&nbsp;'); ?></span>-->
+<!--        <span class="tags"><?php the_tags('&nbsp;'); ?></span>-->
         </footer>
     </div>
     <?php endwhile; ?>

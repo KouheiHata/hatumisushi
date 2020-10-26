@@ -38,6 +38,22 @@ wp_deregister_script('jquery');
         <!-- wrapper start ▼ -->
         <header id="header" class="header">
             <?php if ( is_home() || is_front_page() ): //トップページ ?>
+            <h1 class="title-heading">
+                <img src="<?php echo esc_url(get_theme_file_uri('images/header-main.svg')); ?>" alt="初味寿司　本店">
+            </h1>
+            <!-- スライダーのコンテナ部分 -->
+            <div class="swiper-container">
+                <!-- スライダーのラッパー部分 -->
+                <ul class="swiper-wrapper">
+                    <!-- スライダー本体 -->
+                    <li class="swiper-slide"><img src="<?php echo esc_url(get_theme_file_uri('images/slide01.jpg')); ?>"
+                    alt=""></li>
+                    <li class="swiper-slide"><img src="<?php echo esc_url(get_theme_file_uri('images/slide02.jpg')); ?>" alt=""></li>
+                    <li class="swiper-slide"><img src="<?php echo esc_url(get_theme_file_uri('images/slide03.jpg')); ?>" alt=""></li>
+                    <li class="swiper-slide"><img src="<?php echo esc_url(get_theme_file_uri('images/slide04.jpg')); ?>" alt=""></li>
+                </ul>
+            </div>
+            <?php elseif (is_page('information')): // 店舗情報トップ ?>
             <h1 class="slide-heading">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/header-main.svg')); ?>" alt="初味寿司　本店">
             </h1>
@@ -47,23 +63,6 @@ wp_deregister_script('jquery');
                     <img src="<?php echo esc_url(get_theme_file_uri('images/slide01.jpg')); ?>" alt="placeholder">
                 </video>
             </div>
-            <!-- スライダーのコンテナ部分 -->
-<!--            <div class="swiper-container">-->
-                <!-- スライダーのラッパー部分 -->
-<!--                <ul class="swiper-wrapper">-->
-                    <!-- スライダー本体 -->
-<!--                    <li class="swiper-slide"><img src="<?php echo esc_url(get_theme_file_uri('images/slide01.jpg')); ?>"-->
-                    alt=""></li>
-<!--                    <li class="swiper-slide"><img src="<?php echo esc_url(get_theme_file_uri('images/slide02.jpg')); ?>" alt=""></li>-->
-<!--                    <li class="swiper-slide"><img src="<?php echo esc_url(get_theme_file_uri('images/slide03.jpg')); ?>" alt=""></li>-->
-<!--                    <li class="swiper-slide"><img src="<?php echo esc_url(get_theme_file_uri('images/slide04.jpg')); ?>" alt=""></li>-->
-<!--                </ul>-->
-<!--            </div>-->
-            <?php elseif (is_page('information')): // 店舗情報トップ ?>
-            <h1 class="title-heading">
-                <img src="<?php echo esc_url(get_theme_file_uri('images/header-main.svg')); ?>" alt="初味寿司　本店">
-            </h1>
-            <img src="<?php echo esc_url(get_theme_file_uri('images/info-top.jpg')); ?>" alt="" class="header-img">
             <?php elseif (is_page('menu')): //お品書きトップ ?>
             <h1 class="title-heading">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/header-main.svg')); ?>" alt="初味寿司　本店">
@@ -135,7 +134,7 @@ wp_deregister_script('jquery');
                         <ul class="nav-menu">
                            <?php if(is_home() || is_front_page() ): //トップ ?>
                             <li class="nav-menu-item">
-                                <a href="<?php echo esc_url(home_url('/')); ?>">本日のおすすめ</a>
+                                <a href="<?php echo esc_url(home_url('#fav-article')); ?>">本日のおすすめ</a>
                             </li>
                             <?php else: //それ以外 ?>
                             <li class="nav-menu-item">

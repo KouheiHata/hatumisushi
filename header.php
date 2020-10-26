@@ -54,9 +54,6 @@ wp_deregister_script('jquery');
                 </ul>
             </div>
             <?php elseif (is_page('information')): // 店舗情報トップ ?>
-            <h1 class="slide-heading">
-                <img src="<?php echo esc_url(get_theme_file_uri('images/header-main.svg')); ?>" alt="初味寿司　本店">
-            </h1>
             <div class="video-wrapper">
                <div class="video-filter"></div>
                 <video src="<?php echo get_template_directory_uri(); ?>/images/hatumi-video2.mp4" autoplay loop muted>

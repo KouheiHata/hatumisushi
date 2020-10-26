@@ -1070,6 +1070,7 @@ section {
     height: 900px;
     background-image: url(images/menu2.png);
     background-position: center center;
+    background-size: cover;
 }
 
 .menu-description3 h2,
@@ -1102,6 +1103,7 @@ section {
 .event-section {
     min-height: 350px;
 }
+
 .event-section p {
     word-break: keep-all;
 }
@@ -1148,8 +1150,8 @@ section {
 }
 
 .grid-box5 .box-item img {
-    width: 210px;
-    height: 250px;
+    max-width: 210px;
+    max-height: 250px;
     object-fit: cover;
 }
 

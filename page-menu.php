@@ -34,7 +34,7 @@ Template Name: お品書き
             <div class="box-item box-item6">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/crab1.jpg')); ?>" alt="">
             </div>
-            <div class="box-item box-item7 row2-md-box">
+            <div class="box-item box-item7 row2-box">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/osechi1.jpg')); ?>" alt="">
             </div>
             <div class="box-item box-item8">

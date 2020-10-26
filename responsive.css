@@ -261,6 +261,9 @@
         grid-template-columns: 80px 80px;
         grid-column-gap: 25px;
     }
+    .product-image1 {
+        width: 100%;
+    }
     .product-caption {
         margin-bottom: 2em;
     }
@@ -392,6 +395,24 @@
         height: 120px;
     }
     
+    .menu-description3 {
+        height: 600px;
+        background-size: cover;
+        background-position: bottom;
+    }
+    .menu-description3 h2,
+    .menu-description3 p {
+        top: 100px;
+    }
+    .menu-description4 {
+        height: 600px;
+        background-size: cover;
+    }
+    .menu-description4 h2,
+    .menu-description4 p {
+        top: 170px;
+    }
+    
     /* 法事など */
     .event::after {
         bottom: 15px;
@@ -422,13 +443,14 @@
         display: -ms-grid;
         display: grid;
         max-width: 350px;
-        grid-template-columns: repeat(3 , 100px);
-        grid-template-rows: repeat(6, 150px);
+        grid-template-columns: repeat(3 , 1fr);
+        grid-template-rows: repeat(6, 1fr);
         grid-gap: 5px;
     }
     
     .grid-box6 .box-item4 {
-        grid-column-start: 1;
+        grid-column-start: 3;
+        grid-column-end: 4;
         grid-row-start: 2;
         grid-row-end: 3;
     }
@@ -439,8 +461,8 @@
         grid-row-end: 3;
     }
     .grid-box6 .box-item7 {
-        grid-column-start: 3;
-        grid-column-end: 4;
+        grid-column-start: 1;
+        grid-column-end: 2;
         grid-row-start: 2;
         grid-row-end: 3;
     }
@@ -486,7 +508,7 @@
         grid-row-gap: 20px;
     }
     .grid-box8 .box-item {
-        width: 300px;
+        max-width: 300px;
         height: 120px;
     }
     .grid-box8 .box-item img {
@@ -504,7 +526,11 @@
     
     /* 法事など */
     .event {
-        width: 50%;
+        width: 75%;
+        word-break: keep-all;
+    }
+    .event::after {
+        padding: 0 50px;
     }
     
     .grid-box5 {

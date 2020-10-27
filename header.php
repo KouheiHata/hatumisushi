@@ -29,6 +29,17 @@
     <?php
 wp_deregister_script('jquery');
 ?>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0JY17WQ8KJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0JY17WQ8KJ');
+</script>
+
 </head>
 
 <body <?php body_class (); ?>>
@@ -56,7 +67,7 @@ wp_deregister_script('jquery');
             <?php elseif (is_page('information')): // 店舗情報トップ ?>
             <div class="video-wrapper">
                <div class="video-filter"></div>
-                <video src="<?php echo get_template_directory_uri(); ?>/images/hatumi-video2.mp4" autoplay loop muted>
+                <video src="<?php echo get_template_directory_uri(); ?>/images/hatumi-video2.mp4" playsinline autoplay loop muted>
                     <img src="<?php echo esc_url(get_theme_file_uri('images/slide01.jpg')); ?>" alt="placeholder">
                 </video>
             </div>

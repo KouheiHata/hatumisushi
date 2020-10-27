@@ -11,8 +11,10 @@
             <div class="mb-5 col-xl-6 col-lg-6 text-center"><?php the_post_thumbnail('large'); ?></div>
             <div class="mb-5 col-xl-9 col-lg-9"><?php the_content(); //本文 ?></div>
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 mb-5">
+<!--
                 <span><?php the_category('&nbsp;'); ?></span>
                 <span><?php the_tags('&nbsp;'); ?></span>
+-->
             </div>
         </div>
     </article>

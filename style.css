@@ -1080,6 +1080,8 @@ section {
 }
 
 .menu-description4 {
+    margin-top: 240px;
+    margin-bottom: 240px;
     height: 900px;
     background-image: url("images/menu1.png");
     background-size: cover;

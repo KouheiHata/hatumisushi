@@ -162,6 +162,7 @@
         max-width: 250px;
     }
     .swiper-slide img {
+        width: 100%;
         height: auto;
     }
     .video-filter {
@@ -525,6 +526,13 @@
     }
     
     /* 法事など */
+    .event-section {
+        width: 100%;
+    }
+    .event-section p {
+        width: 90%;
+        word-break: break-all;
+    }
     .event {
         width: 75%;
         word-break: keep-all;

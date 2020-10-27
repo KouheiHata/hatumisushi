@@ -60,7 +60,7 @@
                 $new_query = new WP_Query($args);
                 if($new_query->have_posts()): while($new_query->have_posts()):$new_query->the_post();
                 ?>
-                    <h3 class="mb-3 col-xl-6 col-lg-6 col-md-6"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3><p class="col-xl-6 col-lg-6 mb-3"><?php the_time('Y年m月d日(l)'); ?></p>
+                    <h3 class="mb-3 col-xl-6 col-lg-6 col-md-6"><a href="<?php echo get_category_link('2'); ?>"><?php the_title(); ?></a></h3><p class="col-xl-6 col-lg-6 mb-3"><?php the_time('Y年m月d日(l)'); ?></p>
                     <div class="mb-5 col-xl-6 col-lg-6"><?php the_content(); //本文 ?></div>
                     <div class="mb-5 col-xl-6 col-lg-6 text-center"><?php the_post_thumbnail('large'); ?></div>
                     <?php endwhile; wp_reset_postdata(); else: ?>

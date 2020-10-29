@@ -3,7 +3,7 @@
 <div id="main" class="main">
     <!-- main start ▼ -->
 
-    <section class="section section01">
+    <section class="section-top section01">
         <div class="container">
             <div class="row">
                 <h2 class="col-12 text-center mb-5">
@@ -47,7 +47,7 @@
         </div><!-- container end -->
     </section><!-- section1 end -->
 
-    <section class="section section02">
+    <section class="section-top section02">
         <div class="container">
             <div class="row">
                <article id="fav-article" class="fav-article row"><!-- サブループ -->
@@ -67,7 +67,7 @@
                     <?php endif; ?>
                </article>
 
-                <div class="grid-box2">
+                <div class="grid-box2" style="display:none;">
                     <div class="box-item">
                         <img src="<?php echo esc_url(get_theme_file_uri('images/gallery-image1.jpg')); ?>" alt="">
                     </div>
@@ -88,6 +88,13 @@
                     </div>
                 </div>
 
+            </div><!-- row end -->
+        </div><!-- container end -->
+    </section><!-- section2 end -->
+
+    <section class="section-top section03">
+        <div class="container">
+            <div class="row">
                 <div class="grid-box3">
                     <div class="box-item">盛り合わせ</div>
                     <div class="box-item">1,800円</div>
@@ -106,9 +113,9 @@
 
             </div><!-- row end -->
         </div><!-- container end -->
-    </section><!-- section2 end -->
+    </section><!-- section3 end -->
 
-    <section class="section section03">
+    <section class="section-top section04">
         <div class="container">
             <div class="row">
                 <h2 class="col-12 text-center mb-5">
@@ -136,9 +143,9 @@
                 </div>
             </div><!-- row end -->
         </div><!-- container end -->
-    </section><!-- section03メニュー end -->
+    </section><!-- section04メニュー end -->
 
-    <section class="section section04">
+    <section class="section-top section05">
         <div class="container">
             <div class="row justify-content-center">
                 <h3 class="col-12 text-center mb-5">オリジナル商品</h3>
@@ -157,9 +164,9 @@
 
             </div><!-- row end -->
         </div><!-- container end -->
-    </section><!-- section04 end -->
+    </section><!-- section05 end -->
 
-    <section class="section section05">
+    <section class="section-top section06">
         <div class="container">
             <div class="row">
 
@@ -194,7 +201,7 @@
 
             </div><!-- row end -->
         </div><!-- container end -->
-    </section><!-- section05 end -->
+    </section><!-- section06 end -->
 
 </div><!-- main end ▲ -->
 <?php get_footer(); ?>

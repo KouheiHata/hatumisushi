@@ -214,6 +214,10 @@ section {
     padding: 3rem 0px;
 }
 
+section-top {
+    padding: 3rem 0px;
+}
+
 ::selection {
 	background: #333;
 	color: #fff;
@@ -288,6 +292,10 @@ section {
 }
 
 .section:nth-of-type(odd) {
+    background: rgba(234, 234, 234, 0.7);
+}
+
+.section-top:nth-of-type(even) {
     background: rgba(234, 234, 234, 0.7);
 }
 

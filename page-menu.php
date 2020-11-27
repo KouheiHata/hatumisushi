@@ -10,88 +10,9 @@ Template Name: お品書き
 
 <main id="main" class="main menu-back">
     <div class="container">
-        <div class="menu-description3">
-            <h2 class="menu-title">季節料理</h2>
-            <p class="menu-p">夏は鱧料理、冬は越前蟹はもちろん、<br>河豚やすっぽんなどの鍋料理があります。<br>お正月の御節料理、２月の節分の恵方巻寿司、<br>７月の土用の丑の日の鰻など、<br>一年通して多彩なお料理もあります。<br>※要予約</p>
-        </div>
-        <div class="grid-box6">
-            <div class="box-item box-item1">
-                <img src="<?php echo esc_url(get_theme_file_uri('images/sasimi1.jpg')); ?>" alt="鱧">
-            </div>
-            <div class="box-item box-item2">
-                <img src="<?php echo esc_url(get_theme_file_uri('images/conger.jpg')); ?>" alt="" width="207">
-            </div>
-            <div class="box-item box-item3">
-                <img src="<?php echo esc_url(get_theme_file_uri('images/rolls-sushi.jpg')); ?>" alt="">
-            </div>
-            <div class="box-item box-item4">
-                <img src="<?php echo esc_url(get_theme_file_uri('images/rolls-sea.jpg')); ?>" alt="">
-            </div>
-            <div class="box-item box-item5 menu-description1">
-                <h2 class="menu-title">季節料理</h2>
-                <p class="menu-p">夏は鱧料理、冬は越前蟹はもちろん、<br>河豚やすっぽんなどの鍋料理があります。<br>お正月の御節料理、２月の節分の恵方巻寿司、<br>７月の土用の丑の日の鰻など、<br>一年通して多彩なお料理もあります。<br>※要予約</p>
-            </div>
-            <div class="box-item box-item6">
-                <img src="<?php echo esc_url(get_theme_file_uri('images/crab1.jpg')); ?>" alt="">
-            </div>
-            <div class="box-item box-item7 row2-box">
-                <img src="<?php echo esc_url(get_theme_file_uri('images/osechi1.jpg')); ?>" alt="">
-            </div>
-            <div class="box-item box-item8">
-                <img src="<?php echo esc_url(get_theme_file_uri('images/crab2.jpg')); ?>" alt="">
-            </div>
-            <div class="box-item box-item9">
-                <img src="<?php echo esc_url(get_theme_file_uri('images/crab4.jpg')); ?>" alt="">
-            </div>
-            <div class="box-item box-item10">
-                <img src="<?php echo esc_url(get_theme_file_uri('images/crab5.jpg')); ?>" alt="">
-            </div>
-            <div class="box-item box-item11">
-                <img src="<?php echo esc_url(get_theme_file_uri('images/crab3.jpg')); ?>" alt="">
-            </div>
-        </div><!-- grid-box6 end -->
-        <div class="menu-description4">
-            <h2 class="menu-title">一品料理</h2>
-            <p class="menu-p">地元市場で仕入れた魚などの食材を<br>使ったお料理が楽しめます。</p>
-        </div>
-        <div class="grid-box7">
-            <div class="box-item box-item1">
-                <img src="<?php echo esc_url(get_theme_file_uri('images/tamago1.jpg')); ?>" alt="">
-            </div>
-            <div class="box-item box-item2">
-                <img src="<?php echo esc_url(get_theme_file_uri('images/takenoko.jpg')); ?>" alt="">
-            </div>
-            <div class="box-item box-item3">
-                <img src="<?php echo esc_url(get_theme_file_uri('images/nimono.jpg')); ?>" alt="">
-            </div>
-            <div class="box-item box-item4">
-                <img src="<?php echo esc_url(get_theme_file_uri('images/ayuyaki.jpg')); ?>" alt="">
-            </div>
-            <div class="box-item box-item5 menu-description2">
-                <h2 class="menu-title">一品料理</h2>
-                <p class="menu-p">地元市場で仕入れた魚などの食材を<br>使ったお料理が楽しめます。</p>
-            </div>
-            <div class="box-item box-item6">
-                <img src="<?php echo esc_url(get_theme_file_uri('images/sirako.jpg')); ?>" alt="">
-            </div>
-            <div class="box-item box-item7">
-                <img src="<?php echo esc_url(get_theme_file_uri('images/nimono2.jpg')); ?>" alt="">
-            </div>
-            <div class="box-item box-item8">
-                <img src="<?php echo esc_url(get_theme_file_uri('images/nimono3.jpg')); ?>" alt="">
-            </div>
-            <div class="box-item box-item9">
-                <img src="<?php echo esc_url(get_theme_file_uri('images/katuotataki.jpg')); ?>" alt="">
-            </div>
-        </div><!-- grid-box7 end -->
-        <h2 class="menu-title">福井の地酒</h2>
-        <p class="menu-p">春のフレッシュな「しぼりたて」<br>夏の「生酒」<br>秋の「ひやおろし」など<br>季節によって美味しい<br class="d-md-none">お酒をご用意しております。</p>
-        <div class="text-center mt-5">
-            <img src="<?php echo esc_url(get_theme_file_uri('images/nihonshu.jpg')); ?>" alt="">
-        </div>
-        <div class="grid-box8">
+       <div class="grid-box8">
             <div class="box-item box-item1 col2-md-box">
-                <h2 class="menu-title">通常メニュー</h2>
+                <h2 class="menu-title">寿司メニュー</h2>
             </div>
             <div class="box-item box-item2">
                 <h3 class="">盛り合わせ<br>1,800円</h3>
@@ -144,6 +65,75 @@ Template Name: お品書き
 
             </div>
         </div><!-- grid-box8 end -->
+        <div class="flex-box nigiri">
+           <h2 class="menu-title">握り寿司</h2>
+            <div class="box-item box-item1">
+                <img src="<?php echo esc_url(get_theme_file_uri('images/sushi1.JPG')); ?>" alt="甘エビ｜〆鯖">
+            </div>
+            <div class="box-item box-item2">
+                <img src="<?php echo esc_url(get_theme_file_uri('images/sushi2.JPG')); ?>" alt="中トロ｜カジキ">
+            </div>
+            <div class="box-item box-item3">
+                <img src="<?php echo esc_url(get_theme_file_uri('images/sushi3.JPG')); ?>" alt="マグロ赤身｜マグロトロ">
+            </div>
+            <div class="box-item box-item4">
+                <div class="button"><a href="#">握り寿司<br>いろいろ</a></div>
+            </div>
+        </div><!-- nigiri end -->
+        
+        <div class="flex-box ippin">
+           <h2 class="menu-title">一品料理</h2>
+            <div class="box-item box-item1">
+                <p class="menu-p">定番の茶碗むしや出汁巻玉子、天ぷらなどの他に、旬の魚の焼物や煮付など、いろいろなお料理があります。</p>
+            </div>
+            <div class="box-item box-item2">
+                <img src="<?php echo esc_url(get_theme_file_uri('images/ippin1.JPG')); ?>" alt="">
+            </div>
+            <div class="box-item box-item3">
+                <img src="<?php echo esc_url(get_theme_file_uri('images/ippin2.JPG')); ?>" alt="">
+            </div>
+            <div class="box-item box-item4">
+                <img src="<?php echo esc_url(get_theme_file_uri('images/ippin3.JPG')); ?>" alt="">
+            </div>
+            <div class="box-item box-item5">
+                <div class="button"><a href="#">料理いろいろ</a></div>
+            </div>
+        </div>
+        
+        <div class="flex-box seasons">
+            <h2 class="menu-title">季節料理</h2>
+            <div class="box-item box-item1">
+                <p class="menu-p">春は山菜や筍料理、夏は鱧料理や土用の丑の日の鰻、秋は松茸を使った香り高いお料理など、冬は福井が全国に誇る越前蟹、河豚やあんこうなどの鍋料理。2月の節分の日の恵方巻。季節を楽しむお料理があります。</p>
+            </div>
+            <div class="box-item box-item2">
+                <img src="<?php echo esc_url(get_theme_file_uri('images/season-spring1.JPG')); ?>" alt="">
+            </div>
+            <div class="box-item box-item3">
+                <img src="<?php echo esc_url(get_theme_file_uri('images/season-sammer1.JPG')); ?>" alt="">
+            </div>
+            <div class="box-item box-item4">
+                <img src="<?php echo esc_url(get_theme_file_uri('images/season-winter1.JPG')); ?>" alt="">
+            </div>
+            <div class="box-item box-item5">
+                <img src="<?php echo esc_url(get_theme_file_uri('images/season-winter2.JPG')); ?>" alt="">
+            </div>
+            <div class="box-item box-item6">
+                <img src="<?php echo esc_url(get_theme_file_uri('images/season-winter3.JPG')); ?>" alt="">
+            </div>
+            <div class="box-item box-item7">
+                <img src="<?php echo esc_url(get_theme_file_uri('images/season-winter4.JPG')); ?>" alt="">
+            </div>
+            <div class="box-item box-item8">
+                <img src="<?php echo esc_url(get_theme_file_uri('images/season-spring2.JPG')); ?>" alt="">
+            </div>
+        </div>
+        
+        <h2 class="menu-title">福井の地酒</h2>
+        <p class="menu-p">春のフレッシュな「しぼりたて」<br>夏の「生酒」<br>秋の「ひやおろし」など<br>季節によって美味しい<br class="d-md-none">お酒をご用意しております。</p>
+        <div class="text-center mt-5">
+            <img src="<?php echo esc_url(get_theme_file_uri('images/nihonshu.jpg')); ?>" alt="">
+        </div>
+        
         <div class="container-inner">
             <h3 class="mt-5 pl-sm-5">お料理をお子様向けにしてお出しすることもできます。<br>予約時にアレルギーのことなどお気軽にご相談ください。</h3>
             <h2 class="mt-5 pl-sm-5 font-weight-bold">注意</h2>

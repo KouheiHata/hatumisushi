@@ -659,25 +659,25 @@ div.button a:hover {
 div.button a::before {
     content: '';
     display: inline-block;
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
     border-top: 3px solid #ffffff;
     border-right: 3px solid #ffffff;
     transform: rotate(45deg);
     position: absolute;
-    top: 40%;
+    top: 43.5%;
     right: 28px;
 }
 div.button a::after {
     content: '';
     display: inline-block;
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
     border-top: 3px solid #ffffff;
     border-right: 3px solid #ffffff;
     transform: rotate(45deg);
     position: absolute;
-    top: 40%;
+    top: 43.5%;
     right: 20px;
 }
  
@@ -715,37 +715,6 @@ div.button a::after {
 /*    border: 1px solid #707070;*/
 }
 
-.grid-box2 {
-    display: -ms-grid;
-    display: grid;
-    max-width: calc(100% - 10px);
-    margin: 5em auto;
-    -ms-grid-template-columns:1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    -ms-grid-template-rows: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-auto-flow: row;
-    grid-gap: 5px;
-}
-
-.grid-box3 {
-    display: -ms-grid;
-    display: grid;
-    width: 50%;
-    border-top: 1px solid #707070;
-    border-bottom: 1px solid #707070;
-    margin: auto auto;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    justify-content: center;
-    grid-template-columns: 150px 150px;
-    grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 100px;
-    grid-row-gap: 15px;
-}
-.grid-box3 .box-item {
-    text-indent: 1em;
-}
 
 /* section4 オリジナル商品 */
 
@@ -851,6 +820,23 @@ div.button a::after {
 .single-content {
     min-height: 50vh;
 }
+/* メニュー詳細 */
+.menu-detail-title {
+    width: 70%;
+    padding: 5px 0 5px 0.5em;
+    margin-top: 1em;
+    margin-left: 15px;
+    margin-bottom: 3rem;
+    color: #ffffff;
+    font-weight: 600;
+    background: #333333;
+}
+.menu-detail-p {
+    margin-bottom: 1.5em;
+    font-weight: 900;
+    line-height: 2;
+}
+
 
 .category {
     padding-right: 0.5em;
@@ -918,73 +904,6 @@ div.button a::after {
     background-attachment: fixed;
 }
 
-.grid-box6 {
-    padding-top: 90px;
-    text-align: center;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-}
-
-.grid-box6 .box-item1 img {
-    position: relative;
-    top: 6rem;
-    left: 25%;
-}
-
-
-.grid-box6 .box-item2{
-    z-index: 2;
-}
-.grid-box6 .box-item4 {
-    position: relative;
-    top: 2rem;
-}
-.grid-box6 .box-item6 {
-    grid-row-start: 3;
-    grid-row-end:4;
-}
-.grid-box6 .box-item8 {
-    grid-column-start: 4;
-    grid-column-end: 5;
-}
-.grid-box6 .box-item8 img {
-    position: relative;
-    bottom: 5rem;
-    right: 35%;
-}
-
-.grid-box6 .box-item9 {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 4;
-    grid-row-end: 5;
-    z-index: 4;
-}
-
-.grid-box6 .box-item10 {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 4;
-    grid-row-end: 5;
-    z-index: 3;
-}
-.grid-box6 .box-item10 img {
-    position: relative;
-    top: 2rem;
-    right: 35%;
-}
-.grid-box6 .box-item11 {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 4;
-    grid-row-end: 5;
-    z-index: 2;
-}
-.grid-box6 .box-item11 img {
-    position: relative;
-    left: 15%;
-}
-
 .menu-title {
     width: 100%;
     color: #ffffff;
@@ -1010,7 +929,7 @@ div.button a::after {
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     justify-content: space-between;
     column-gap: 20px;
     row-gap: 1.5em;
@@ -1025,7 +944,7 @@ div.button a::after {
     display: inline-flex;
     justify-content: center;
 }
-.ippin > .box-item1 > p {
+.ippin > .box-item > p {
     width: min(700px, 100%);
 }
 
@@ -1033,9 +952,9 @@ div.button a::after {
     display: -ms-grid;
     display: grid;
     max-width: 1000px;
-    margin-top: 0;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 50px;
     grid-row-gap: 38px;
     grid-template-columns: 500px 500px;
     grid-template-rows: repeat(6, 1fr);
@@ -1058,7 +977,7 @@ div.button a::after {
 
 .nigiri { /* 握り寿司 */
     width: 1000px;
-    margin: 100px auto 100px;
+    margin: 100px auto 150px;
     flex: 0 0 auto;
     justify-content: space-between;
     column-gap: 10px;
@@ -1075,7 +994,8 @@ div.button a::after {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    justify-content: space-between;
+    margin-bottom: 150px;
+    justify-content: flex-start;
     align-items: center;
     column-gap: 40px;
     row-gap: 3rem;
@@ -1090,10 +1010,25 @@ div.button a::after {
     display: inline-flex;
     justify-content: center;
 }
-.seasons > .box-item1 > p {
+.seasons > .box-item > p {
     width: min(700px, 100%);
 }
+.seasons > .box-item:last-child {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+}
 
+/* 季節料理　ここまで */
+
+/* 福井の地酒 */
+.local-liquor {
+    justify-content: center;
+    align-items: center;
+}
+.local-liquor .box-item {
+    width: min(700px, 100%);
+}
 
 .menu-caution {
     margin-top: 1em;
@@ -1102,12 +1037,8 @@ div.button a::after {
 
 .menu-caution li {
     font-weight: 600;
+    list-style-type: disc;
     margin-bottom: 1rem;
-}
-
-.menu-caution li::before {
-    content: '※';
-    padding-right: 0.5rem;
 }
 
 .inf-box p,.inf-box h3,.inf-box h4 {
@@ -1134,7 +1065,9 @@ div.button a::after {
 
 .event-section {
     min-height: 350px;
+    padding: 0;
 }
+
 
 .event-section p {
     word-break: keep-all;
@@ -1147,7 +1080,7 @@ div.button a::after {
 
 .circle2 {
     background: url("images/circle2.png") no-repeat;
-    background-position: top 40px left 100px;
+    background-position: top 0px left 100px;
 }
 .circle3 {
     background: url("images/circle3.png") no-repeat;

@@ -67,27 +67,6 @@
                     <?php endif; ?>
                </article>
 
-                <div class="grid-box2" style="display:none;">
-                    <div class="box-item">
-                        <img src="<?php echo esc_url(get_theme_file_uri('images/gallery-image1.jpg')); ?>" alt="">
-                    </div>
-                    <div class="box-item">
-                        <img src="<?php echo esc_url(get_theme_file_uri('images/gallery-image2.jpg')); ?>" alt="">
-                    </div>
-                    <div class="box-item">
-                        <img src="<?php echo esc_url(get_theme_file_uri('images/gallery-image3.jpg')); ?>" alt="">
-                    </div>
-                    <div class="box-item">
-                        <img src="<?php echo esc_url(get_theme_file_uri('images/gallery-image4.jpg')); ?>" alt="">
-                    </div>
-                    <div class="box-item">
-                        <img src="<?php echo esc_url(get_theme_file_uri('images/gallery-image5.jpg')); ?>" alt="">
-                    </div>
-                    <div class="box-item">
-                        <img src="<?php echo esc_url(get_theme_file_uri('images/gallery-image6.jpg')); ?>" alt="">
-                    </div>
-                </div>
-
             </div><!-- row end -->
         </div><!-- container end -->
     </section><!-- section2 end -->
@@ -95,19 +74,7 @@
     <section class="section-top section03">
         <div class="container">
             <div class="row">
-                <div class="grid-box3">
-                    <div class="box-item">盛り合わせ</div>
-                    <div class="box-item">1,800円</div>
-                    <div class="box-item">上握り</div>
-                    <div class="box-item">2,800円</div>
-                    <div class="box-item">特上握り</div>
-                    <div class="box-item">3,500円</div>
-                    <div class="box-item">ちらし</div>
-                    <div class="box-item">1,800円</div>
-                    <div class="box-item">特巻</div>
-                    <div class="box-item">3,500円</div>
-                </div>
-                <div class="col-12 mt-5">
+                <div class="col-12 mt-5 mb-5">
                     <button class="button-square centering"><a href="<?php echo esc_url(home_url('/menu')) ?>">メニューを<br>より詳しく<i class="fas fa-angle-double-right pl-3"></i></a></button>
                 </div>
 
@@ -123,19 +90,19 @@
                 </h2>
                 <div class="col-12 text-center mb-5">
                     <img src="<?php echo esc_url(get_theme_file_uri('images/large-room.jpg')); ?>" alt="２階大部屋　８人～２０人" width="830">
-                    <h3 class="mt-3 text-center">２階大部屋（８人～２０人）</h3>
+                    <p class="mt-3 text-center">２階大部屋（８人～２０人）</p>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 text-center mb-5">
                     <img src="<?php echo esc_url(get_theme_file_uri('images/8mat-room.jpg')); ?>" alt="２階８畳間（４人～６人）">
-                    <h3 class="text-center">２階８畳間（４人～６人）</h3>
+                    <p class="text-center">２階８畳間（４人～６人）</p>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 text-center mb-5">
                     <img src="<?php echo esc_url(get_theme_file_uri('images/hearth-room.jpg')); ?>" alt="１階囲炉裏部屋（４人～８人）">
-                    <h3 class="text-center">１階囲炉裏部屋（４人～８人）</h3>
+                    <p class="text-center">１階囲炉裏部屋（４人～８人）</p>
                 </div>
                 <div class="col-12">
                     <div class="container-inner">
-                        <h3 class="mb-5">足や膝の負担が少なく、お食事と会話を楽しんでいただけますようにテーブルと椅子に、１階の囲炉裏部屋は一部が足を下ろし腰掛けできるようになっています。</h3>
+                        <p class="mb-5">足や膝の負担が少なく、お食事と会話を楽しんでいただけますようにテーブルと椅子に、１階の囲炉裏部屋は一部が足を下ろし腰掛けできるようになっています。</p>
                     </div>
                 </div>
                 <div class="col-12">

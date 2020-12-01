@@ -104,35 +104,44 @@ add_filter( 'show_admin_bar' , 'my_function_admin_bar');
 
 // カスタム投稿タイプを登録する関数
 function new_custom_post_type() {
-
-	// もともと設定されていたカスタム投稿タイプ「news」
+    $support = [ //エディターの機能追加
+        'title', //記事タイトル
+        'editor', //記事本文
+        'thumbnail', // アイキャッチ画像
+        'revisions' // リビジョン
+    ];
+	// カスタム投稿「メニュー詳細」
 	register_post_type(
-		'news',
+		'menu_more',
 		array(
 			'labels' => array(
-				'name' => 'お知らせ',
-				'singular_name' => 'news',
+				'name' => 'メニュー詳細',
+				'singular_name' => 'menu_more',
 				'add_new' => '新規追加',
 				'add_new_item' => '新規追加',
-				'edit_item' => 'お知らせを編集',
+				'edit_item' => 'メニュー詳細を編集',
 				'new_item' => '新着情報',
-				'all_items' => 'お知らせ一覧',
-				'view_item' => 'お知らせを見る',
+				'all_items' => 'メニュー詳細一覧',
+				'view_item' => 'メニューを見る',
 				'search_items' => '検索する',
 				'not_found' => 'お知らせが見つかりませんでした。',
 				'not_found_in_trash' => 'ゴミ箱内にお知らせが見つかりませんでした。'
 			),
 			'public' => true,
 			'has_archive' => true,
-			'menu_icon' => 'dashicons-format-chat',
-			'menu_position' => 5,
+			'menu_position' => 25,
 			'supports' => array(
 				'title',
 				'editor',
-				'thumbnail'
+                'auther',
+				'thumbnail',
+                'excerpt',
+                'custom-fields',
+                'rivisons',
+                'page-attributes',
+                'post-formats'
 			),
-			'rewrite' => true,
-			'taxonomies' => array('news')
+			'rewrite' => true
 		)
 	);
 
@@ -153,6 +162,6 @@ function new_custom_post_type() {
 		'hierarchical'        => true,
 		'labels'              => $labels,
 	);
-	register_taxonomy( 'news_cat', 'news', $args );
+	register_taxonomy( 'menu_cat', 'menu_more', $args );
 }
 add_action( 'init', 'new_custom_post_type');

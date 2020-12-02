@@ -141,7 +141,8 @@ function new_custom_post_type() {
                 'page-attributes',
                 'post-formats'
 			),
-			'rewrite' => true
+			'rewrite' => true,
+            'show_in_rest' => true
 		)
 	);
 
@@ -165,3 +166,7 @@ function new_custom_post_type() {
 	register_taxonomy( 'menu_cat', 'menu_more', $args );
 }
 add_action( 'init', 'new_custom_post_type');
+
+// 本体ギャラリーのCSSを停止（これが無いとCSSが反映されない）
+add_filter('use_defalt_gallery_style', '__return_false');
+

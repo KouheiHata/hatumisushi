@@ -77,7 +77,7 @@ Template Name: お品書き
                 <img src="<?php echo esc_url(get_theme_file_uri('images/sushi3.JPG')); ?>" alt="マグロ赤身｜マグロトロ">
             </div>
             <div class="box-item box-item4">
-                <div class="button"><a href="<?php echo esc_url(get_permalink('115')); ?>">握り寿司<br>いろいろ</a></div>
+                <div class="button"><a href="<?php echo esc_url(home_url('menu/nigiri')); ?>">握り寿司<br>いろいろ</a></div>
             </div>
         </div><!-- nigiri end -->
 
@@ -96,7 +96,7 @@ Template Name: お品書き
                 <img src="<?php echo esc_url(get_theme_file_uri('images/ippin3.JPG')); ?>" alt="">
             </div>
             <div class="box-item box-item5">
-                <div class="button"><a href="<?php echo esc_url(get_permalink('129')); ?>">料理いろいろ</a></div>
+                <div class="button"><a href="<?php echo esc_url(home_url('ippin'));  ?>">料理いろいろ</a></div>
             </div>
         </div>
 

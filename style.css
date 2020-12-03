@@ -1031,8 +1031,11 @@ div.button a::after {
     display: inline-flex;
     justify-content: center;
 }
-.seasons > .box-item > p {
+.seasons > .box-item1 > p {
     width: min(700px, 100%);
+}
+.seasons > .box-item:not(first-child) > p {
+    font-weight: 600;
 }
 .seasons > .box-item:last-child {
     width: 100%;

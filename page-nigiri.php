@@ -54,42 +54,55 @@ get_header(); ?>
             </div>
             <div class="box-item box-item9">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/sushi9.JPG')); ?>" alt="">
+                <p>福井サーモン｜カニ</p>
             </div>
             <div class="box-item box-item10">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/sushi10.JPG')); ?>" alt="">
+                <p>サヨリ｜キンメダイ</p>
             </div>
             <div class="box-item box-item11">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/sushi11.JPG')); ?>" alt="">
+                <p>生ゲソ｜カワハギ</p>
             </div>
             <div class="box-item box-item12">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/sushi12.JPG')); ?>" alt="">
+                <p>かずの子｜ヒメ鯛</p>
             </div>
             <div class="box-item box-item13">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/sushi13.JPG')); ?>" alt="">
+                <p>ヒラメ｜赤カレイ</p>
             </div>
             <div class="box-item box-item14">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/sushi14.JPG')); ?>" alt="">
+                <p>鮎酢〆｜トリガイ</p>
             </div>
             <div class="box-item box-item15">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/sushi15.JPG')); ?>" alt="">
+                <p>スジガツオ｜クエ</p>
             </div>
             <div class="box-item box-item16">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/sushi16.JPG')); ?>" alt="">
+                <p>イカ｜カンパチ腹身</p>
             </div>
             <div class="box-item box-item17">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/sushi17.JPG')); ?>" alt="">
+                <p>イワシ｜サンマ</p>
             </div>
             <div class="box-item box-item18">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/sushi18.JPG')); ?>" alt="">
+                <p>スズキ｜甘鯛昆布〆</p>
             </div>
             <div class="box-item box-item19">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/sushi19.JPG')); ?>" alt="">
+                <p>鉄火巻き｜真鯛</p>
             </div>
             <div class="box-item box-item20">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/sushi20.JPG')); ?>" alt="">
+                <p>寒ブリ｜キス</p>
             </div>
             <div class="box-item box-item21">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/sushi21.JPG')); ?>" alt="">
+                <p>タイラギガイ｜カマス炙り</p>
             </div>
         </div>
 

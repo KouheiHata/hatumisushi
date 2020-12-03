@@ -280,6 +280,9 @@
 /*	13. Page
 /* -------------------------------------------------------------------------------- */
 @media screen and (max-width: 1024px) {
+    .grid-box8 {
+        grid-template-columns: minmax(400px, 50%) minmax(400px, 50%);
+    }
     .button-wrap {
         justify-content: flex-start;
     }
@@ -296,8 +299,6 @@
         font-size: 18px;
     }
     
-
-    
     .menu-description1 {
         grid-column-start: 1;
         grid-column-end: 5;
@@ -308,8 +309,9 @@
     
     .grid-box8 {
         width: 90%;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: minmax(300px, 50%) minmax(300px, 50%);
         grid-column-gap: 15px;
+        grid-row-gap: 15px;
         
     }
     .grid-box8 .box-item:nth-of-type(even) {
@@ -333,6 +335,12 @@
     .menu-description4 h2,
     .menu-description4 p {
         top: 170px;
+    }
+    .nigiri div.button {/*握り寿司*/
+        justify-content: flex-start;
+    }
+    .ippin .box-item div.button {
+        justify-content: flex-start;
     }
     
     /* 法事など */
@@ -365,60 +373,6 @@
         font-size: 44px;
     }
     
-    .grid-box6 {
-        display: -ms-grid;
-        display: grid;
-        max-width: 350px;
-        grid-template-columns: repeat(3 , 1fr);
-        grid-template-rows: repeat(6, 1fr);
-        grid-gap: 5px;
-    }
-    
-    .grid-box6 .box-item4 {
-        grid-column-start: 3;
-        grid-column-end: 4;
-        grid-row-start: 2;
-        grid-row-end: 3;
-    }
-    .grid-box6 .box-item6 {
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 2;
-        grid-row-end: 3;
-    }
-    .grid-box6 .box-item7 {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 2;
-        grid-row-end: 3;
-    }
-    .grid-box6 .box-item8 {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 5;
-        grid-row-end: 6;
-    }
-    .grid-box6 .box-item9 {
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 5;
-        grid-row-end: 6;
-    }
-    .grid-box6 .box-item10 {
-        grid-column-start: 3;
-        grid-column-end: 4;
-        grid-row-start: 5;
-        grid-row-end: 6;
-    }
-    .grid-box6 .box-item11 {
-        grid-row-start: 6;
-        grid-row-end: 7;
-    }
-    .grid-box7 {
-        display: -ms-grid;
-        display: grid;
-    }
-    
     .menu-description1 {
         grid-column: span 3;
         grid-row-start: 3;
@@ -441,14 +395,19 @@
         object-fit: cover;
     }
     
-    .menu-description3 {
-        display: none;
-        height: 300px;
+    .nigiri {
+        justify-content: space-around;
+        flex: 1 1 auto;
     }
-
+    .nigiri .box-item {
+        width: min(300px, 100%);
+    }
     
-    .menu-description4 {
-        display: none;
+    .ippin {
+        justify-content: space-around;
+    }
+    .ippin .box-item {
+        width: min(300px, 100%);
     }
     
     .menu-view {

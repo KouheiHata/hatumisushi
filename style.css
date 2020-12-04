@@ -661,13 +661,11 @@ section-top {
 div.button {
     display: flex;
     align-content: center;
-    align-items: center;
-    align-items: center;
-    justify-items: center;
     justify-content: center;
 }
 div.button a {
     color: #ffffff;
+    font-size: 1.25em;
     background: #333333;
     padding: 20px 50px 20px 40px;
     position: relative;
@@ -969,7 +967,7 @@ div.button a::after {
     justify-content: center;
 }
 .ippin > .box-item > p {
-    width: min(700px, 100%);
+    width: clamp(300px, 70%, 700px);
 }
 
 .grid-box8 { /* 寿司メニュー */
@@ -1034,12 +1032,19 @@ div.button a::after {
     display: inline-flex;
     justify-content: center;
 }
-.seasons > .box-item1 > p {
-    width: min(700px, 100%);
-}
-.seasons > .box-item:not(.box-item1) > p {
+
+.seasons > .box-item > p {
     font-weight: 600;
+    font-size: 20px;
 }
+
+.seasons > .box-item1 > p,
+.seasons > .box-item9 > p {
+    width: clamp(300px, 70%, 700px);
+    font-weight: 500;
+    font-size: 25px;
+}
+
 .seasons > .box-item:last-child {
     width: 100%;
     display: inline-flex;
@@ -1051,10 +1056,10 @@ div.button a::after {
 /* 福井の地酒 */
 .local-liquor {
     justify-content: center;
-    align-items: center;
+    align-content: center;
 }
 .local-liquor .box-item {
-    width: min(700px, 100%);
+    width: clamp(300px, 70%, 700px);
 }
 
 .menu-caution {

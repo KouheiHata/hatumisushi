@@ -409,6 +409,12 @@
     .ippin .box-item {
         width: min(300px, 100%);
     }
+    .seasons {
+        justify-content: space-around;
+    }
+    .seasons .box-item {
+        width: min(300px, 100%);
+    }
     
     .menu-view {
         grid-template-columns: minmax(150px, 50%) minmax(150px, 50%);

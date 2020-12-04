@@ -143,14 +143,16 @@ Template Name: お品書き
 
         <h2 class="menu-title">福井の地酒</h2>
         <div class="flex-box local-liquor">
-            <p class="menu-p">春のフレッシュな「しぼりたて」<br>夏の「生酒」<br>秋の「ひやおろし」など<br>季節によって美味しい<br class="d-md-none">お酒をご用意しております。</p>
+           <div class="box-item box-item1">
+               <p class="menu-p">春のフレッシュな「しぼりたて」<br>夏の「生酒」<br>秋の「ひやおろし」など<br>季節によって美味しい<br class="d-md-none">お酒をご用意しております。</p>
+           </div>
 
 
             <div class="text-center mt-5">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/nihonshu.jpg')); ?>" alt="">
             </div>
 
-            <div class="box-item">
+            <div class="box-item box-item2">
                 <h2 class="mt-5 pl-sm-5 font-weight-bold">注意</h2>
                 <ul class="pl-sm-5 menu-caution">
                     <li>表示価格は全て税抜きです</li>

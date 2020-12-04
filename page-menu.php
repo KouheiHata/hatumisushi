@@ -96,7 +96,7 @@ Template Name: お品書き
                 <img src="<?php echo esc_url(get_theme_file_uri('images/ippin3.JPG')); ?>" alt="">
             </div>
             <div class="box-item box-item5">
-                <div class="button"><a href="<?php echo esc_url(home_url('ippin'));  ?>">料理いろいろ</a></div>
+                <div class="button"><a href="<?php echo esc_url(home_url('ippin'));  ?>">料理<br>いろいろ</a></div>
             </div>
         </div>
 
@@ -107,31 +107,31 @@ Template Name: お品書き
             </div>
             <div class="box-item box-item2">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/season-spring1.JPG')); ?>" alt="">
-                <p>季節.春</p>
+                <p>春の料理</p>
             </div>
             <div class="box-item box-item3">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/season-sammer1.JPG')); ?>" alt="">
-                <p>季節.夏</p>
+                <p>夏の料理</p>
             </div>
             <div class="box-item box-item4">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/season-winter1.JPG')); ?>" alt="">
-                <p>季節.冬</p>
+                <p>冬の料理</p>
             </div>
             <div class="box-item box-item5">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/season-winter2.JPG')); ?>" alt="">
-                <p>季節.冬</p>
+                <p>冬の料理</p>
             </div>
             <div class="box-item box-item6">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/season-winter3.JPG')); ?>" alt="">
-                <p>季節.冬</p>
+                <p>冬の料理</p>
             </div>
             <div class="box-item box-item7">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/season-winter4.JPG')); ?>" alt="">
-                <p>季節.冬</p>
+                <p>冬の料理</p>
             </div>
             <div class="box-item box-item8">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/season-spring2.JPG')); ?>" alt="">
-                <p>季節.節分</p>
+                <p>節分　恵方巻き</p>
             </div>
             <div class="box-item box-item9">
                 <p class="menu-p">

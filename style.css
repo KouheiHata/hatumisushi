@@ -1095,9 +1095,9 @@ p[description="menu"] {
     margin: 5em 0;
     padding-left: 15px;
     padding-right: 15px;
-    grid-template-columns: repeat(4,minmax(150px, 25%));
-    grid-column-gap: 15px;
-    grid-row-gap: 15px;
+    grid-template-columns: repeat(4, minmax(150px, 25%));
+    grid-column-gap: 35px;
+    grid-row-gap: 35px;
 }
 .menu-view p {
     text-align: center;

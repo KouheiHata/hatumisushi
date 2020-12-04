@@ -667,7 +667,7 @@ div.button a {
     color: rgb(255, 255, 255);
     font-size: 1.25em;
     background: rgb(51, 51, 51);
-    padding: 20px 20% 20px 10%;
+    padding: 20px 50px 20px 40px;
     overflow-x: hidden;
     transition: 0.5s;
     position: relative;

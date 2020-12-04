@@ -668,34 +668,45 @@ div.button a {
     font-size: 1.25em;
     background: rgb(51, 51, 51);
     padding: 20px 50px 20px 40px;
+    transition: 0.5s;
     position: relative;
 }
 div.button a:hover {
+    color: rgb(51, 51, 51);
     text-decoration: none;
+    background: rgb(204, 204, 204);
 }
-div.button a::before {
-    content: '';
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    border-top: 3px solid #ffffff;
-    border-right: 3px solid #ffffff;
-    transform: rotate(45deg);
-    position: absolute;
-    top: 43.5%;
-    right: 28px;
-}
+
+div.button a::before,
 div.button a::after {
     content: '';
     display: inline-block;
     width: 10px;
     height: 10px;
+    transform: rotate(45deg);
+    transition: 0.5s;
+    position: absolute;
+}
+
+div.button a::before {
     border-top: 3px solid #ffffff;
     border-right: 3px solid #ffffff;
-    transform: rotate(45deg);
-    position: absolute;
+    top: 43.5%;
+    right: 28px;
+}
+div.button a::after {
+    border-top: 3px solid #ffffff;
+    border-right: 3px solid #ffffff;
     top: 43.5%;
     right: 20px;
+}
+div.button a:hover::before {
+    border-top: 3px solid #333333;
+    border-right: 3px solid #333333;
+}
+div.button a:hover::after {
+    border-top: 3px solid #333333;
+    border-right: 3px solid #333333;
 }
  
 /* -------------------------------------------------------------------------------- */

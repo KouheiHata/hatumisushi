@@ -96,7 +96,7 @@ Template Name: お品書き
                 <img src="<?php echo esc_url(get_theme_file_uri('images/ippin3.JPG')); ?>" alt="">
             </div>
             <div class="box-item box-item5">
-                <div class="button"><a href="<?php echo esc_url(home_url('ippin'));  ?>">料理<br>いろいろ</a></div>
+                <div class="button"><a href="<?php echo esc_url(home_url('menu/ippin'));  ?>">料理<br>いろいろ</a></div>
             </div>
         </div>
 

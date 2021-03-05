@@ -36,8 +36,8 @@ Template Name: 店舗情報
                 <p class="col-xl-10 col-lg-10 col-md-10 col-sm-10 offset-md-2 mt-3">足や膝の負担が少なく、お食事と会話を楽しんでいただけますようにテーブルと椅子に、１階の囲炉裏部屋は一部が足を降ろし腰掛け出来るようになっています。</p>
                 <h2 class="col-12 mt-5">駐車場</h2>
                 <p class="col-12 mb-5">１０台までお車を駐車できます。</p>
-                <h2 class="col-12">喫煙</h2>
-                <p class="col-12 mb-5">全面喫煙となっております。</p>
+                <h2 class="col-12">禁煙</h2>
+                <p class="col-12 mb-5">全面禁煙となっております。</p>
                 <h2 class="col-12">アクセス</h2>
                 <p class="col-12 mb-5">商工会議所前駅/福武線　徒歩４分（300m）</p>
                 <h2 class="col-12">お支払い方法</h2>

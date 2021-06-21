@@ -161,9 +161,7 @@
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                     <h3 class="mb-5">Instagram</h3>
-                    <a href="https://www.instagram.com/hatumisusi/" target="_blank">
-                        <div class="card-columns insta-card"></div>
-                    </a>
+                    <?php echo do_shortcode('[instagram-feed]'); ?>
                 </div>
 
             </div><!-- row end -->
